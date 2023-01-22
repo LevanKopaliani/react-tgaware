@@ -3,4 +3,44 @@
   background-image: url(../assets/img/homebackground.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.section-one {
+  color: white;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-one__title {
+  font-family: "DINcomp";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  max-width: 556px;
+  /* max-width: 366px;  to media */
+  text-transform: uppercase;
+  overflow-wrap: break-word;
+}
+.section-one__title span {
+  font-weight: 300;
+}
+.section-one__subtitle {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 522px;
+  /* max-width: 307px;  to media */
+  color: #bec0c8;
+}
+.section-one__button {
+  margin-top: 32px;
+  width: 149px;
+  height: 56px;
+  border: none;
+  color: white;
+  font-family: DINComp;
+  background-color: #ff0000;
+  border-radius: 8px;
 }
