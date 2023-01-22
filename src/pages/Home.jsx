@@ -1,21 +1,11 @@
-import MyInput from "../components/MyInput";
+import "../styles/Home.css";
+import NavBar from "../components/NavBar";
 
 const Home = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        flexDirection: "column",
-        gap: "20px",
-        background: "#1d2b3a",
-        color: "#fff",
-      }}
-    >
-      Home
-      <MyInput place={"test"} />
-    </div>
+    <main className="homepage">
+      <NavBar />
+    </main>
   );
 };
 
