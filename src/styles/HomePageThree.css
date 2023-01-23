@@ -1,0 +1,35 @@
+.section-three {
+  background-image: url(../assets/img/sectionthreeback.png);
+  background-position: center center;
+  height: 900px;
+  position: relative;
+  top: -56px;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+.section-three-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  align-items: flex-start;
+  width: 100%;
+  /* max-width: 592px; */
+  /* max-height: 440px; */
+  text-align: left;
+  gap: 32px;
+}
+
+.section--three-title {
+}
+.section-three-subtitle {
+}
+.section-three-sub-subtitle {
+}
+
+@media screen and (max-width: 431px) {
+  .section-three {
+    background-image: url(../assets/img/sectionthreemobileback.png);
+    top: 0px;
+  }
+}

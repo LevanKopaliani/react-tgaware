@@ -84,6 +84,27 @@
   background-color: #ff0000;
   transition: all 0.5s ease-in;
 }
+.socmedia {
+  display: none;
+  max-width: 257px;
+  height: 118px;
+  padding-bottom: 50px;
+}
+.menu-icons {
+  display: flex;
+  gap: 30.4px;
+  width: 100%;
+
+  justify-content: center;
+}
+.menu-copyright {
+  margin-top: 32px;
+
+  font-family: "Product Sans";
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
 
 @media screen and (max-width: 960px) {
   .navbar-container {
@@ -103,6 +124,7 @@
     width: 100%;
     top: 0;
     left: -100%;
+    min-height: 926px;
     height: 100%;
 
     transition: all 0.5s ease;
@@ -147,5 +169,8 @@
     text-align: center;
 
     font-size: 2rem;
+  }
+  .socmedia {
+    display: block;
   }
 }

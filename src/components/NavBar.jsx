@@ -8,6 +8,9 @@ import ButtonLogo from "../assets/img/btn-logo.svg";
 import NavBtn from "../assets/img/bntNAV.png";
 import MobileLogo from "../assets/img/mobilemenulogo.png";
 import CloseButton from "../assets/img/btn-close.png";
+import FaICon from "../assets/img/Fb-Icon.png";
+import InsICon from "../assets/img/Ins-Icon.png";
+import LinICon from "../assets/img/Lin-icon.png";
 
 const NavBar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -142,6 +145,17 @@ const NavBar = () => {
               </svg>
               Clinical trials
             </button>
+            <div className="socmedia">
+              <div className="menu-icons">
+                <img src={FaICon} alt="Facebook" />
+                <img src={InsICon} alt="Instagram" />
+                <img src={LinICon} alt="Linkedin" />
+              </div>
+              <p className="menu-copyright">
+                © 2021 Akcea Therapeutics, Inc. All rights reserved.
+                US-FCS-2100030
+              </p>
+            </div>
           </ul>
         </div>
       </div>

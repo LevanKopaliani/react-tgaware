@@ -65,6 +65,7 @@
   position: relative;
   color: white;
   border-radius: 8px;
+  z-index: 99;
 }
 .signup-div h2 {
   font-family: "DINcomp";
@@ -87,12 +88,16 @@
 @media screen and (max-width: 431px) {
   .homepage {
     background-image: url(../assets/img/mobileback.png);
+    height: 926px;
   }
   .section-one__title {
     max-width: 332px;
   }
   .section-one__subtitle {
     max-width: 307px;
+  }
+  .signup-div {
+    top: 22px;
   }
 }
 @media screen and (max-width: 560px) {
@@ -101,6 +106,6 @@
     max-width: none;
     left: 0;
     border-radius: 0;
-    top: -53px;
+    /* top: -53px; */
   }
 }

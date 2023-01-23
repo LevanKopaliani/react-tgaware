@@ -1,5 +1,7 @@
 import "../styles/Home.css";
 import NavBar from "../components/NavBar";
+import HomePageTwo from "./sections/HomePageTwo";
+import HomePageThree from "./sections/HomePageThree";
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
           <p>Sign Up For News And Updates</p>
         </span>
       </div>
+      <HomePageTwo />
+      <HomePageThree />
     </main>
   );
 };
