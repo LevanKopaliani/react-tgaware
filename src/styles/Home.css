@@ -2,29 +2,33 @@
   min-height: 900px;
   background-image: url(../assets/img/homebackground.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-size: contain; */
+  background-position: center top;
 }
 .section-one {
   color: white;
   display: flex;
-  height: 100vh;
+  /* height: calc(100vh - 78px); */
+  height: 716px;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .section-one__title {
-  font-family: "DINcomp";
+  margin-top: 259px;
+  font-family: "DINComp";
   font-size: 32px;
   font-weight: 500;
   line-height: 40px;
   max-width: 556px;
-  /* max-width: 366px;  to media */
+
+  /* max-width: 366px;  332px to media */
   text-transform: uppercase;
   overflow-wrap: break-word;
 }
 .section-one__title span {
-  font-weight: 300;
+  font-family: "DINComp-light";
+  font-weight: 350;
 }
 .section-one__subtitle {
   margin-top: 32px;
@@ -40,7 +44,63 @@
   height: 56px;
   border: none;
   color: white;
-  font-family: DINComp;
+  font-family: "DINComp";
   background-color: #ff0000;
   border-radius: 8px;
+}
+.section-one__button:hover {
+  outline: 3px solid white;
+  transition: all 0.3s ease-out;
+}
+.signup-div {
+  max-width: 371px;
+  height: 112px;
+  /* top: 56px; */
+  left: calc(100% - 451px);
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  color: white;
+  border-radius: 8px;
+}
+.signup-div h2 {
+  font-family: "DINcomp";
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.signup-div p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.signup-div svg:hover {
+  background-color: black;
+  outline: 4px solid black;
+  outline-offset: -4px;
+}
+
+@media screen and (max-width: 431px) {
+  .homepage {
+    background-image: url(../assets/img/mobileback.png);
+  }
+  .section-one__title {
+    max-width: 332px;
+  }
+  .section-one__subtitle {
+    max-width: 307px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .signup-div {
+    flex: 1;
+    max-width: none;
+    left: 0;
+    border-radius: 0;
+    top: -53px;
+  }
 }

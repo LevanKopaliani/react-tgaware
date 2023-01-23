@@ -31,6 +31,9 @@
   flex: 1;
   align-items: center;
 }
+.mobile-header {
+  display: none;
+}
 .nav-item {
   /* height: 16px; */
   /* border-bottom: 2px solid transparent; */
@@ -83,26 +86,58 @@
 }
 
 @media screen and (max-width: 960px) {
+  .navbar-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+  }
+
   .nav-menu {
-    background-color: #95a5a6;
+    padding: 0 32px;
+    background-color: #ffffff;
     position: absolute;
     z-index: 999;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    top: 80px;
+    top: 0;
     left: -100%;
-    height: calc(100% - 80px);
-    color: #9b59b6;
+    height: 100%;
+
     transition: all 0.5s ease;
+  }
+  .nav-item {
+    font-family: "Product Sans Medium";
+    color: black;
   }
   .nav-menu.active {
     left: 0;
     transition: all 1s ease;
   }
+  .mobile-header {
+    padding: 72px 0 80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .nav-item {
     width: 100%;
+  }
+  .nav-links {
+    color: #16191c;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    justify-content: flex-start;
+  }
+  .nav-button {
+    color: #16191c;
+    align-self: flex-start;
+  }
+  .nav-button path {
+    fill: black;
   }
 
   .menu-icon {
@@ -110,7 +145,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right: 25px;
+
     font-size: 2rem;
   }
 }

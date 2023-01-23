@@ -6,30 +6,34 @@
 
 @font-face {
   font-family: "DINComp";
-  src: url(./assets/fonts/DIN-Medium.ttf);
+  src: url(./assets/fonts/DIN-Medium.woff2) format("woff2");
   font-weight: 500;
 }
 @font-face {
-  font-family: "DINComp";
-  src: url(./assets/fonts/DIN-Light.ttf);
-  font-weight: 300;
+  font-family: "DINComp-light";
+  src: url(./assets/fonts/DIN-Light.woff2) format("woff2");
+  font-weight: 350;
+}
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Product Sans"),
+    url("./assets/fonts/ProductSans-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Google sans";
-  src: url(./assets/fonts/ProductSans-Regular.ttf);
-  font-weight: normal;
-}
-@font-face {
-  font-family: "google sans";
-  src: url(./assets/fonts/ProductSans-Medium.ttf);
+  font-family: "Product Sans Medium";
+  font-style: normal;
   font-weight: 500;
+  src: local("Product Sans Medium"),
+    url("./assets/fonts/ProductSans-Medium.woff") format("woff");
 }
 
 body {
   max-width: 1440px;
   margin: 0 auto;
-  font-family: "Google sans", sans-serif;
+  font-family: "Product Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
