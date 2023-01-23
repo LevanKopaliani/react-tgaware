@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-tgaware/static/css/main.16a1d8ac.css",
+    "main.js": "/react-tgaware/static/js/main.e68dfb69.js",
+    "static/media/sectionthreeback.png": "/react-tgaware/static/media/sectionthreeback.db9e80fe57570a7d9947.png",
+    "static/media/sectiontwoback.png": "/react-tgaware/static/media/sectiontwoback.e27f7b4d16eb9f1a2827.png",
+    "static/media/sectionfourback.png": "/react-tgaware/static/media/sectionfourback.9d3a346a91f3a70c1413.png",
+    "static/media/sectionthreemobileback.png": "/react-tgaware/static/media/sectionthreemobileback.a25f6b42b4721d332d6f.png",
+    "static/media/homebackground.png": "/react-tgaware/static/media/homebackground.db26ba8d00be3450ec89.png",
+    "static/media/mobileback.png": "/react-tgaware/static/media/mobileback.217f8c559217261e14a6.png",
+    "static/media/sectiontwomobileback.png": "/react-tgaware/static/media/sectiontwomobileback.c828b879edcda16047ba.png",
+    "static/media/sectionfoutmobileback.png": "/react-tgaware/static/media/sectionfoutmobileback.2eabde424a3f5bfc7562.png",
+    "static/media/ProductSans-Regular.woff": "/react-tgaware/static/media/ProductSans-Regular.0a489488ab3cb2eb11f9.woff",
+    "static/media/ProductSans-Medium.woff": "/react-tgaware/static/media/ProductSans-Medium.70f0942277dd5cd83980.woff",
+    "static/media/DIN-Medium.woff2": "/react-tgaware/static/media/DIN-Medium.a8dcf901d183963ea344.woff2",
+    "static/media/DIN-Light.woff2": "/react-tgaware/static/media/DIN-Light.f8ce08afa46b0e47098c.woff2",
+    "static/media/btn-logo.svg": "/react-tgaware/static/media/btn-logo.d271882484aa64ae1bfe8d41d01317dd.svg",
+    "index.html": "/react-tgaware/index.html",
+    "main.16a1d8ac.css.map": "/react-tgaware/static/css/main.16a1d8ac.css.map",
+    "main.e68dfb69.js.map": "/react-tgaware/static/js/main.e68dfb69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16a1d8ac.css",
+    "static/js/main.e68dfb69.js"
+  ]
+}
