@@ -1,0 +1,106 @@
+.section-four {
+  background-image: url(../assets/img/sectionfourback.png);
+  background-repeat: no-repeat;
+  min-height: 1680px;
+  position: relative;
+  top: -56px;
+}
+.section-four-top-container {
+  min-height: 915px;
+  color: black;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 32px;
+}
+.section-four-title {
+  font-family: "DINComp";
+  color: #16191c;
+  font-weight: 500;
+  font-size: 52px;
+  max-width: 669px;
+  text-transform: uppercase;
+  border-right: 2px solid #ff0000;
+  padding: 0 32px;
+  overflow-wrap: anywhere;
+}
+.section-four-subtitle {
+  max-width: 592px;
+  color: #454b61;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section-four-sub-subtitle {
+  font-family: "Product Sans Medium";
+  max-width: 592px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.section-four-bottom-container {
+  min-height: 915px;
+  color: black;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.section-four-bottom-title {
+  font-family: "DINComp";
+  color: #16191c;
+  font-weight: 500;
+  font-size: 52px;
+  max-width: 669px;
+  text-transform: uppercase;
+  border-left: 2px solid #ff0000;
+  padding: 0 32px;
+  overflow-wrap: anywhere;
+}
+.section-four-bottom-subtitle {
+  max-width: 592px;
+  color: #454b61;
+  font-size: 16px;
+  line-height: 24px;
+}
+.section-four--bottom-sub-subtitle {
+  font-family: "Product Sans Medium";
+  max-width: 592px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+@media screen and (max-width: 431px) {
+  .section-four {
+    background-image: url(../assets/img/sectionfoutmobileback.png);
+    top: 0px;
+  }
+  .section-four-title {
+    border: none;
+    padding: 0;
+    font-size: 32px;
+    line-height: 36px;
+    /* max-width: 368px; */
+  }
+  .section-four-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section-four-bottom-title {
+    max-width: 371px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-four-bottom-subtitle {
+    max-width: 362px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section-four--bottom-sub-subtitle {
+    max-width: 362px;
+  }
+}

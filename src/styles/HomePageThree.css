@@ -18,18 +18,44 @@
   /* max-height: 440px; */
   text-align: left;
   gap: 32px;
+  color: white;
 }
 
-.section--three-title {
+.section-three-title {
+  font-family: "DINComp";
+  max-width: 518px;
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .section-three-subtitle {
+  max-width: 592px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bec0c8;
 }
 .section-three-sub-subtitle {
+  font-family: "Product Sans Medium";
+  max-width: 450px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 431px) {
   .section-three {
     background-image: url(../assets/img/sectionthreemobileback.png);
     top: 0px;
+  }
+  .section--three-title {
+    max-width: 263px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-three-subtitle {
+    /* font-weight: 400; */
+    max-width: 363px;
+    font-size: 20px;
+    line-height: 28px;
   }
 }

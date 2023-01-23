@@ -12,8 +12,13 @@
   cursor: pointer;
 }
 
-.mainbutton:hover {
+.mainbutton.black:hover {
   color: black;
   outline: 3px solid black;
+  transition: all 0.3s ease-out;
+}
+.mainbutton.white:hover {
+  color: white;
+  outline: 3px solid white;
   transition: all 0.3s ease-out;
 }

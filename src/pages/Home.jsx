@@ -2,6 +2,7 @@ import "../styles/Home.css";
 import NavBar from "../components/NavBar";
 import HomePageTwo from "./sections/HomePageTwo";
 import HomePageThree from "./sections/HomePageThree";
+import HomePageFour from "./sections/HomePageFour";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       </div>
       <HomePageTwo />
       <HomePageThree />
+      <HomePageFour />
     </main>
   );
 };

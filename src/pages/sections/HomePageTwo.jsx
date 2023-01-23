@@ -20,7 +20,7 @@ const HomePageTwo = () => {
             Learn more about ASCVD and other symptoms of severe and extreme
             hypertriglyceridemia
           </p>
-          <MainButton text={"Learn more"} />
+          <MainButton text={"Learn more"} outline={"black"} />
         </div>
       </div>
     </section>

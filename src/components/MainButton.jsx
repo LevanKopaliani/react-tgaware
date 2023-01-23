@@ -1,7 +1,7 @@
 import "../styles/MainButton.css";
 
-const MainButton = ({ text }) => {
-  return <button className="mainbutton">{text}</button>;
+const MainButton = ({ text, outline }) => {
+  return <button className={"mainbutton " + `${outline}`}>{text}</button>;
 };
 
 export default MainButton;
