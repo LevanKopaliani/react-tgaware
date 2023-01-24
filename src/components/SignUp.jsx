@@ -2,6 +2,8 @@ import "../styles/SignUp.css";
 import SignUpIcon from "../assets/img/signup-icon.png";
 import MainButton from "./MainButton";
 import SubmitImg from "../assets/img/submit-img.png";
+import Acordion from "./Acordion";
+import ReferencesData from "../assets/data/ReferencesData";
 
 const SignUp = () => {
   return (
@@ -78,6 +80,7 @@ const SignUp = () => {
           </div>
           <MainButton text={"Submit"} img={true} />
         </div>
+        <Acordion title={"SHOW REFERENCES"} content={ReferencesData[0].data} />
       </div>
     </section>
   );
