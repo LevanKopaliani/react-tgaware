@@ -5,6 +5,7 @@ import HomePageThree from "./sections/HomePageThree";
 import HomePageFour from "./sections/HomePageFour";
 import SignUpButton from "../components/SignUpButton";
 import MainButton from "../components/MainButton";
+import SignUp from "../components/SignUp";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       <HomePageTwo />
       <HomePageThree />
       <HomePageFour />
+      <SignUp />
     </main>
   );
 };

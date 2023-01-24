@@ -1,0 +1,101 @@
+.signup {
+  min-height: 1267px;
+  background-color: #0c1823;
+  padding: 0 32px;
+  color: #454b61;
+}
+.signup-container {
+  max-width: 1064px;
+  margin: 0 auto;
+  padding: 154px 0 126px 0;
+}
+.signup-form-container {
+  background-color: white;
+  min-height: 777px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 48px 40px;
+  border-radius: 18px;
+}
+.signup-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #16191c;
+  width: 100%;
+}
+.signup-info-heading__title {
+  font-family: "DINComp";
+  font-size: 52px;
+  text-transform: uppercase;
+}
+.signup-info-heading__subtitle {
+  margin-top: 8px;
+  max-width: 592px;
+  line-height: 24px;
+}
+.signup .form-input {
+  min-width: 317.33px;
+  max-width: 100%;
+  height: 72px;
+  padding: 24px 16px;
+  border: 1px solid #454b61;
+  border-radius: 12px;
+}
+.signup input:focus-visible {
+  outline: #ff0000;
+  border-color: #ff0000;
+}
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #454b61;
+  border-radius: 4px;
+}
+.agreement-fields {
+  margin-top: 16px;
+  display: flex;
+  /* align-items: center; */
+  gap: 16px;
+}
+.field-required {
+  color: #ff0000;
+}
+.agreement-fields {
+  max-width: 790px;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* ::-webkit-input-placeholder {
+  color: red;
+  content: "*";
+  opacity: 1;
+} */
+form {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(317px, 1fr));
+  /* display: flex;
+  align-items: center;
+  flex-wrap: wrap; */
+  gap: 16px;
+}
+
+@media screen and (max-width: 431px) {
+  .signup-container {
+    padding-top: 27px;
+  }
+  .signup-form-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  form {
+    grid-template-columns: 1fr;
+  }
+  .signup .form-input {
+    min-width: 100px;
+  }
+}
