@@ -1,17 +1,29 @@
 .homepage {
-  min-height: 900px;
-  background-image: url(../assets/img/homebackground.png);
-  background-repeat: no-repeat;
+  /* background-size: cover; */
+
   /* background-size: contain; */
-  background-position: center top;
 }
 .section-one {
+  background-image: url(../assets/img/homebackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.section-one-container {
+  min-height: 900px;
+
+  position: relative;
   color: white;
   display: flex;
+
   /* height: calc(100vh - 78px); */
-  height: 716px;
+  max-width: 1280px;
+  padding: 0 7%;
+  margin: 0 auto;
+  min-height: 900px; /* 716px */
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .section-one__title {
@@ -38,51 +50,8 @@
   /* max-width: 307px;  to media */
   color: #bec0c8;
 }
-.section-one__button {
+.section-one button {
   margin-top: 32px;
-  width: 149px;
-  height: 56px;
-  border: none;
-  color: white;
-  font-family: "DINComp";
-  background-color: #ff0000;
-  border-radius: 8px;
-}
-.section-one__button:hover {
-  outline: 3px solid white;
-  transition: all 0.3s ease-out;
-}
-.signup-div {
-  max-width: 371px;
-  height: 112px;
-  /* top: 56px; */
-  left: calc(100% - 451px);
-  background-color: #ff0000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-  position: relative;
-  color: white;
-  border-radius: 8px;
-  z-index: 99;
-}
-.signup-div h2 {
-  font-family: "DINcomp";
-  font-size: 32px;
-  line-height: 40px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.signup-div p {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
-.signup-div svg:hover {
-  background-color: black;
-  outline: 4px solid black;
-  outline-offset: -4px;
 }
 
 @media screen and (max-width: 431px) {
@@ -95,17 +64,5 @@
   }
   .section-one__subtitle {
     max-width: 307px;
-  }
-  .signup-div {
-    top: 22px;
-  }
-}
-@media screen and (max-width: 560px) {
-  .signup-div {
-    flex: 1;
-    max-width: none;
-    left: 0;
-    border-radius: 0;
-    /* top: -53px; */
   }
 }

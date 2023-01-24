@@ -1,9 +1,11 @@
 .section-three {
   background-image: url(../assets/img/sectionthreeback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center center;
   height: 900px;
   position: relative;
-  top: -56px;
+  /* top: -56px; */
   display: flex;
   /* justify-content: flex-start; */
   align-items: center;

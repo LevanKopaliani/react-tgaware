@@ -1,9 +1,10 @@
 .section-two {
   background-image: url(../assets/img/sectiontwoback.png);
+  background-repeat: no-repeat;
   background-position: left center;
   height: 960px;
-  position: relative;
-  top: -56px;
+  /* position: relative; */
+  /* top: -56px; */
   display: flex;
   justify-content: flex-end;
   align-items: center;

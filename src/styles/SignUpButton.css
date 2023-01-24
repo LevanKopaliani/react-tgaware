@@ -1,0 +1,50 @@
+.signup-div {
+  min-width: 371px;
+  height: 112px;
+  /* top: 56px; */
+  /* left: calc(100% - 836.5px); */
+  /* right: calc(100% - 80px); */
+  right: 0;
+  bottom: -56px;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  position: absolute;
+  color: white;
+  border-radius: 8px;
+  z-index: 90;
+}
+.signup-div h2 {
+  font-family: "DINcomp";
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.signup-div p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.signup-div svg:hover {
+  background-color: black;
+  outline: 4px solid black;
+  outline-offset: -4px;
+}
+
+@media screen and (max-width: 431px) {
+  .signup-div {
+    /* top: 22px; */
+  }
+}
+@media screen and (max-width: 560px) {
+  .signup-div {
+    flex: 1;
+    max-width: none;
+    left: 0;
+    border-radius: 0;
+    /* top: -53px; */
+  }
+}

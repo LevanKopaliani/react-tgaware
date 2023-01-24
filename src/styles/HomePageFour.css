@@ -1,9 +1,10 @@
 .section-four {
   background-image: url(../assets/img/sectionfourback.png);
   background-repeat: no-repeat;
+
   min-height: 1680px;
   position: relative;
-  top: -56px;
+  /* top: -56px; */
 }
 .section-four-top-container {
   min-height: 915px;
