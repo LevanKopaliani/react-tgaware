@@ -22,6 +22,11 @@
   align-items: center;
 }
 .acordion-content {
+  margin-top: 32px;
+}
+.acordion-content p {
+  color: #bec0c8;
+  line-height: 24px;
   border-top: 1px solid #454b61;
   padding: 32px 0;
 }

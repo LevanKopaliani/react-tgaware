@@ -80,7 +80,7 @@ const SignUp = () => {
           </div>
           <MainButton text={"Submit"} img={true} />
         </div>
-        <Acordion title={"SHOW REFERENCES"} content={ReferencesData[0].data} />
+        <Acordion title={"SHOW REFERENCES"} content={ReferencesData} />
       </div>
     </section>
   );

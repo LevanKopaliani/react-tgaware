@@ -6,6 +6,7 @@ import HomePageFour from "./sections/HomePageFour";
 import SignUpButton from "../components/SignUpButton";
 import MainButton from "../components/MainButton";
 import SignUp from "../components/SignUp";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <HomePageThree />
       <HomePageFour />
       <SignUp />
+      <Footer />
     </main>
   );
 };

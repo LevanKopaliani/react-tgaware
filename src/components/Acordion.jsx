@@ -17,7 +17,13 @@ const Acordion = ({ title, content }) => {
             <img src={isActive ? acordeonDown : acordeonUp} alt="" />
           </div>
         </div>
-        {isActive && <div className="acordion-content">{content}</div>}
+        {isActive && (
+          <div className="acordion-content">
+            {content.map((item, index) => (
+              <p key={index}>{item.data}</p>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
