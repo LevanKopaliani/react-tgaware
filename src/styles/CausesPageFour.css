@@ -1,0 +1,156 @@
+.causes-section-four {
+  background-image: url(../assets/img/causes/fourback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left center;
+  min-height: 1680px;
+  display: flex;
+  /* display: flex;
+  align-items: center; */
+}
+
+.causes-section-four-heading {
+  margin-top: 238px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.causes-section-four-heading h1 {
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  color: #16191c;
+  text-transform: uppercase;
+  border-right: 2px solid #ff0000;
+  padding: 0 32px;
+}
+.causes-section-four-heading p {
+  color: #454b61;
+  line-height: 24px;
+}
+.causes-section-four-heading p:last-of-type {
+  font-family: "Product Sans Medium";
+  font-size: 18px;
+}
+
+.topblock-title,
+.bottomblock-title {
+  max-width: 680px;
+  font-family: "DINComp", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #16191c;
+}
+
+.topblock-text,
+.bottomblock-text {
+  color: #454b61;
+  line-height: 24px;
+}
+.causes-section-four-topblock,
+.causes-section-four-bottomblock {
+  margin-top: 84px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 44px;
+}
+.causes-section-four-bottomblock {
+  margin-bottom: 112px;
+}
+.topblock-list-container,
+.bottomblock-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1 1;
+  gap: 20px;
+  justify-content: center;
+}
+.topblock-list-container p,
+.bottomblock-list-container p {
+  font-family: "Product Sans Black", sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.topblock-list-one,
+.topblock-list-two,
+.bottomblock-list-one,
+.bottomblock-list-two {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+  max-width: 525px;
+  min-width: 380px;
+  background: linear-gradient(180deg, #c21313 0%, #db5858 100%);
+  border: 1px solid #fd6565;
+  border-radius: 18px;
+  gap: 16px;
+  color: white;
+  flex: 1 1;
+}
+.topblock-list-one ul li,
+.topblock-list-two ul li {
+  line-height: 24px;
+  max-width: 362px;
+}
+.bottomblock-list-one ul:last-of-type {
+  max-width: 379px;
+}
+
+.bottomblock-list-one p {
+  max-width: 372px;
+}
+
+.topblock-list-one ul li,
+.bottomblock-list-one ul li {
+  margin-left: 25px;
+  list-style: disc;
+}
+.topblock-list-image {
+  display: flex;
+}
+.topblock-list-image {
+  align-self: flex-end;
+}
+.divider {
+  border-bottom: 1px solid #e96767;
+}
+.topblock-text,
+.bottomblock-text {
+  line-height: 24px;
+  color: #454b61;
+  max-width: 405px;
+}
+@media screen and (max-width: 431px) {
+  .causes-section-four {
+    background-image: url(../assets/img/causes/fourmobileback.png);
+    /* min-height: 3134px; */
+    /* margin-top: 112px; */
+  }
+  .topblock-list-one,
+  .topblock-list-two,
+  .bottomblock-list-one,
+  .bottomblock-list-two {
+    min-width: auto;
+  }
+  .causes-section-four-heading {
+    margin-top: 188px;
+  }
+  .causes-section-four-heading h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .topblock-text,
+  .bottomblock-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .topblock-list-image {
+    display: none;
+  }
+}

@@ -1,8 +1,11 @@
 import NavBar from "../components/NavBar";
 import SignUpButton from "../components/SignUpButton";
 import "../styles/Causes.css";
+import CausesPageFour from "./sections/CausesPageFour";
 import CausesPageThree from "./sections/CausesPageThree";
 import CausesPageTwo from "./sections/CausesPageTwo";
+import SignUp from "../components/SignUp";
+import Footer from "../components/Footer";
 
 const Causes = () => {
   return (
@@ -19,6 +22,9 @@ const Causes = () => {
       </section>
       <CausesPageTwo />
       <CausesPageThree />
+      <CausesPageFour />
+      <SignUp />
+      <Footer />
     </main>
   );
 };
