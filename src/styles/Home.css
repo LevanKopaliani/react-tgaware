@@ -12,11 +12,9 @@
 
 .section-one-container {
   min-height: 900px;
-
   position: relative;
   color: white;
   display: flex;
-
   /* height: calc(100vh - 78px); */
   max-width: 1280px;
   padding: 0 7%;

@@ -1,0 +1,57 @@
+.causes-section-two {
+  background-image: url(../assets/img/causes/twoback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  min-height: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.section-two-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 586px;
+}
+.section-two-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  text-transform: uppercase;
+  color: #16191c;
+  border-left: 2px solid #ff0000;
+  padding: 0px 32px;
+}
+.section-two-subtitle {
+  font-family: "Product Sans Medium";
+  font-size: 18px;
+  line-height: 24px;
+  color: #454b61;
+}
+.section-two-list {
+  color: #454b61;
+  font-size: 16px;
+  line-height: 24px;
+  list-style: none;
+}
+
+@media screen and (max-width: 431px) {
+  .causes-section-two {
+    background-image: url(../assets/img/causes/twomobileback.png);
+    min-height: 1099px;
+    margin-top: 112px;
+  }
+  .section-two-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-two-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .section-two-list {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

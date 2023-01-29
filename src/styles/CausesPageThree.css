@@ -1,0 +1,67 @@
+.causes-section-three {
+  background-image: url(../assets/img/causes/threeback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+}
+.causes-section-three-container {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.causes-section-three-title {
+  font-family: "DINCorp", sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.list-container {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-three-list {
+  padding: 48px 25px 48px 40px;
+  background: linear-gradient(180deg, #c21313 0%, #db5858 100%);
+  border: 1px solid #fd6565;
+  border-radius: 18px;
+
+  min-width: 300px;
+  flex-grow: 1;
+  max-width: 522px;
+
+  line-height: 24px;
+}
+.section-three-list li {
+  margin-left: 25px;
+}
+.section-three-text {
+  line-height: 24px;
+  max-width: 580px;
+  color: #bec0c8;
+}
+
+@media screen and (max-width: 980px) {
+  .causes-section-three {
+    padding: 20% 0;
+  }
+}
+@media screen and (max-width: 431px) {
+  .causes-section-three {
+    background-image: url(../assets/img/causes/threemobileback.png);
+    min-height: 1668px;
+    padding: 0;
+  }
+  .section-three-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,54 @@
+.causes-section {
+  min-height: 617px;
+  background-image: url(../assets/img/causes/causesback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.causes-container {
+  max-width: 1280px;
+  padding: 0 7%;
+  margin: 0 auto;
+  min-height: 617px;
+  position: relative;
+}
+.causes-heading {
+  font-family: "DINComp";
+  color: white;
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  top: 355px;
+}
+.causes-heading span {
+  font-family: "DINComp-light";
+  font-weight: 350;
+}
+
+@media screen and (max-width: 680px) {
+  .causes-heading {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .causes-section {
+    background-image: url(../assets/img/causes/causesmobileback.png);
+  }
+  .causes-container {
+    min-height: 680px;
+  }
+  .causes-heading {
+    top: 528px;
+  }
+  .signup-div {
+    bottom: -112px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .causes-heading {
+    font-size: 28px;
+  }
+}

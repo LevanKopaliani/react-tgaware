@@ -4,6 +4,7 @@ import "./index.css";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
+import Causes from "./pages/Causes";
 
 const Applayout = () => {
   return (
@@ -22,6 +23,10 @@ const router = createBrowserRouter(
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/causes",
+          element: <Causes />,
         },
       ],
     },
