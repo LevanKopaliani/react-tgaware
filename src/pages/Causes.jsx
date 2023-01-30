@@ -17,8 +17,8 @@ const Causes = () => {
             <span>Causes of </span>
             <br /> Hypertriglyceridemia
           </h1>
-          <SignUpButton />
         </div>
+        <SignUpButton />
       </section>
       <CausesPageTwo />
       <CausesPageThree />

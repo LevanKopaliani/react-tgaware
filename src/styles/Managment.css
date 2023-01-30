@@ -1,0 +1,41 @@
+.managment-section {
+  /* min-height: 617px; */
+  background-image: url(../assets/img/managment/mainback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.managment-container {
+  max-width: 1280px;
+  padding: 0 7%;
+  margin: 0 auto;
+  min-height: 680px;
+  position: relative;
+}
+.managment-section-title {
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
+  max-width: 836px;
+  color: white;
+  position: absolute;
+  bottom: 120px;
+  line-height: 52px;
+}
+
+@media screen and (max-width: 720px) {
+  .managment-section-title {
+    font-size: 32px;
+    line-height: 36px;
+    bottom: 80px;
+    max-width: 400px;
+    overflow-wrap: anywhere;
+  }
+}
+@media screen and (max-width: 431px) {
+  .managment-section {
+    background-image: url(../assets/img/managment/mainmobileback.png);
+  }
+}

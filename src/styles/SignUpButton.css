@@ -4,7 +4,7 @@
   /* top: 56px; */
   /* left: calc(100% - 836.5px); */
   /* right: calc(100% - 80px); */
-  right: 0;
+  right: 80px;
   bottom: -56px;
   background-color: #ff0000;
   display: flex;
@@ -45,6 +45,7 @@
     max-width: none;
     left: 0;
     border-radius: 0;
+    right: 0;
     /* top: -53px; */
   }
 }

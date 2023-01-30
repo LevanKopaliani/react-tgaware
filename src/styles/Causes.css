@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 .causes-container {
   max-width: 1280px;

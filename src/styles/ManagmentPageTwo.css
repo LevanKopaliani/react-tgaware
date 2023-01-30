@@ -1,0 +1,67 @@
+.managment-section-two {
+  background-image: url(../assets/img/managment/twoback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  min-height: 960px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.managment-section-two-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+.mst-title {
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  max-width: 427px;
+  text-transform: uppercase;
+  color: #16191c;
+  border-left: 2px solid #ff0000;
+  padding: 0px 32px;
+}
+.mst-subtitle {
+  font-family: "Product Sans Medium", sans-serif;
+  color: #454b61;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  max-width: 590px;
+}
+.mst-sub-subtitle {
+  line-height: 24px;
+  max-width: 590px;
+  color: #454b61;
+}
+@media screen and (max-width: 431px) {
+  .managment-section-two {
+    background-image: url(../assets/img/managment/twomobileback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 1071px;
+  }
+
+  .mst-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .mst-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .mst-sub-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .signup-div {
+    bottom: -112px;
+  }
+}

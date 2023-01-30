@@ -25,8 +25,8 @@ const Home = () => {
             pancreatitis.
           </p>
           <MainButton text={"Learn more"} outline={"white"} />
-          <SignUpButton />
         </div>
+        <SignUpButton />
       </section>
 
       <HomePageTwo />
