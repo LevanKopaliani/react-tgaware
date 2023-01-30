@@ -3,6 +3,7 @@ import ArrowS from "../../assets/img/managment/arrow-s.png";
 import ArrowM from "../../assets/img/managment/arrow-m.png";
 import Arrowleft from "../../assets/img/managment/leftarrow.png";
 import ArrowRight from "../../assets/img/managment/rightarrow.png";
+import AfterWrap from "../../assets/img/managment/afterwrap.png";
 
 const ManagmentPageThree = () => {
   return (
@@ -32,8 +33,12 @@ const ManagmentPageThree = () => {
             <img src={Arrowleft} alt="" />
             <img src={ArrowRight} alt="" />
           </div>
+          <div className="arrow afterwrap">
+            <img src={ArrowM} alt="" />
+            <img src={AfterWrap} alt="" className="afterwrap-img" />
+          </div>
           <div className="msth-block-container">
-            <div className="msth-block-column">
+            <div className="msth-block-column self">
               <div className="msth-block">
                 <p>TG {"<"} 10 mol/L</p>
               </div>
@@ -52,7 +57,10 @@ const ManagmentPageThree = () => {
                 </ul>
               </div>
             </div>
-            <div className="msth-block-column">
+            <div className="msth-block-column mgt-101">
+              {/* <div className="arrow afterwrap">
+                <img src={ArrowS} alt="" />
+              </div> */}
               <div className="msth-block">
                 <p>TG ≥ 10 mol/L</p>
               </div>
