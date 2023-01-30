@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import "../styles/Managment.css";
+import ManagmentPageThree from "./sections/ManagmentPageThree";
 import ManagmentPageTwo from "./sections/ManagmentPageTwo";
 
 const Managment = () => {
@@ -14,6 +15,7 @@ const Managment = () => {
         </div>
       </section>
       <ManagmentPageTwo />
+      <ManagmentPageThree />
     </main>
   );
 };
