@@ -30,6 +30,14 @@
   src: local("Product Sans Medium"),
     url("./assets/fonts/ProductSans-Medium.woff") format("woff");
 }
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Product Sans"),
+    url("https://fonts.cdnfonts.com/s/14955/ProductSans-Bold.woff")
+      format("woff");
+}
 
 body {
   max-width: 1440px;

@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import "../styles/Managment.css";
+import ManagmentPageFour from "./sections/ManagmentPageFour";
 import ManagmentPageThree from "./sections/ManagmentPageThree";
 import ManagmentPageTwo from "./sections/ManagmentPageTwo";
 
@@ -16,6 +17,7 @@ const Managment = () => {
       </section>
       <ManagmentPageTwo />
       <ManagmentPageThree />
+      <ManagmentPageFour />
     </main>
   );
 };

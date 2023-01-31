@@ -1,0 +1,198 @@
+.managment-section-four {
+  background-image: url(../assets/img/managment/fourback.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 1800px;
+
+  padding-top: 152px;
+  padding-bottom: 108px;
+}
+.msf-section-info,
+.msf-section-bottom-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.msf-title {
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  max-width: 891px;
+  text-transform: uppercase;
+  color: #16191c;
+  border-left: 2px solid #ff0000;
+  padding: 0px 32px;
+}
+.msf-subtitle {
+  font-family: "Product Sans Medium";
+  font-size: 18px;
+  line-height: 24px;
+  color: #454b61;
+  max-width: 592px;
+}
+.msf-sub-subtitle {
+  line-height: 24px;
+  color: #454b61;
+  max-width: 592px;
+}
+.msf-section-table-one {
+  margin-top: 108px;
+}
+.msf-table-one-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #16191c;
+  max-width: 580px;
+}
+
+.msf-section-table-one {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.msf-table-one,
+.msf-table-two {
+  padding: 48px 40px;
+  background: linear-gradient(180deg, #c21313 0%, #db5858 100%);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.table-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 128px;
+  flex-wrap: wrap-reverse;
+}
+.table-head span {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ff9595;
+}
+
+.msf-table-one td {
+  max-width: 484px;
+  width: 50%;
+  padding: 16px 0;
+  color: white;
+  border-top: 1px solid #e96767;
+}
+.msf-table-one tr:last-child td {
+  border-bottom: 1px solid #e96767;
+}
+
+tr {
+  display: flex;
+  gap: 16px;
+}
+td {
+  line-height: 24px;
+}
+tr td:first-of-type {
+  font-weight: 700;
+}
+.table-one-bottom-text {
+  margin-top: 32px;
+  max-width: 405px;
+  line-height: 24px;
+  color: #454b61;
+}
+
+.managment-section-four-bottom {
+  background-image: url(../assets/img/managment/fourbotback.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 1000px;
+}
+.bottom-section-title {
+  margin-top: 78px;
+}
+.msf-table-two {
+  margin-top: 109px;
+  background: linear-gradient(180deg, #1e1e1e 0%, #262626 100%);
+  color: white;
+  gap: 0;
+  overflow-x: scroll;
+}
+.msf-table-two td {
+  min-width: 134px;
+  max-width: 386px;
+  width: 50%;
+  padding: 16px 0;
+  color: white;
+  border-top: 1px solid #4d4d4d;
+}
+.msf-table-two th {
+  min-width: 134px;
+  padding: 16px 0;
+}
+.msf-table-two tr td:first-of-type {
+  max-width: 180px;
+}
+th:first-of-type {
+  min-width: 134px;
+  max-width: 180px;
+  width: 100%;
+}
+th {
+  /* min-width: 180px; */
+  width: 100%;
+  text-align: left;
+}
+.tablebutton {
+  display: flex;
+  gap: 10px;
+}
+.tablebutton img {
+  display: none;
+  max-width: 41px;
+  max-height: 41px;
+}
+.tablebutton img:first-of-type {
+  transform: scaleX(-1);
+}
+
+@media screen and (max-width: 570px) {
+  .table-head {
+    min-height: 224px;
+  }
+  .msf-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .second-cl {
+    display: none;
+  }
+  .tablebutton img {
+    display: block;
+  }
+  /* .fixed {
+    position: absolute;
+  } */
+}
+@media screen and (max-width: 431px) {
+  .managment-section-four {
+    background-image: url(../assets/img/managment/fourmobileback.png);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .msf-title {
+    margin-top: 152px;
+  }
+  .msf-subtitle,
+  .msf-sub-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
