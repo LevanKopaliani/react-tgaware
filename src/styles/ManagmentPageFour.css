@@ -160,6 +160,12 @@ th {
 .tablebutton img:first-of-type {
   transform: scaleX(-1);
 }
+.wrap {
+  max-width: 134px;
+}
+.opacity {
+  opacity: 0.3;
+}
 
 @media screen and (max-width: 570px) {
   .table-head {

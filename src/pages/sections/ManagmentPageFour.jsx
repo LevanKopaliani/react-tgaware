@@ -2,8 +2,12 @@ import "../../styles/ManagmentPageFour.css";
 import ThOneImg from "../../assets/img/managment/thoneimg.png";
 import ThTwoImg from "../../assets/img/managment/thtwoimg.png";
 import TableButton from "../../assets/img/managment/tablebutton.png";
+import TableData from "../../assets/data/TableData";
+import { useState } from "react";
 
 const ManagmentPageFour = () => {
+  const [DataNum, setDataNum] = useState(0);
+
   return (
     <section className="managment-section-four">
       <div className="wrapper">
@@ -114,82 +118,85 @@ const ManagmentPageFour = () => {
             <table className="msf-table-two">
               <tr>
                 <th className="tablebutton">
-                  <img src={TableButton} alt="button" />
-                  <img src={TableButton} alt="button" />
+                  <img
+                    className={DataNum === 0 ? "opacity" : ""}
+                    src={TableButton}
+                    alt="button"
+                    onClick={() => setDataNum(0)}
+                  />
+                  <img
+                    className={DataNum === 1 ? "opacity" : ""}
+                    src={TableButton}
+                    alt="button"
+                    onClick={() => setDataNum(1)}
+                  />
                 </th>
+                <th>{TableData[DataNum].string1}</th>
                 <th className="second-cl">
-                  Multifactorial chylomicronemia
-                  <br /> Syndrome (MCS)
-                </th>
-                <th>
                   Familial Chylomicronemia
                   <br /> Syndrome (FCS)
                 </th>
               </tr>
               <tr>
-                <td className="fixed">TG Levels</td>
+                <td>TG Levels</td>
+                <td>{TableData[DataNum].string2}</td>
                 <td className="second-cl">
-                  Transiently or variable {">"} 880 mg/dl (10mmol/L)
+                  Persistently {">"}880 mg/dL (10mmmol/L)
                 </td>
-                <td>Persistently {">"}880 mg/dL (10mmmol/L)</td>
               </tr>
               <tr>
-                <td className="fixed">Prevalence</td>
-                <td className="second-cl">~ 1 in 600</td>
-                <td>~ 1 in 100,000 to 1 in 1 million</td>
+                <td>Prevalence</td>
+                <td>{TableData[DataNum].string3}</td>
+                <td className="second-cl">~ 1 in 100,000 to 1 in 1 million</td>
               </tr>
               <tr>
-                <td className="fixed">Genes</td>
+                <td>Genes</td>
+                <td>{TableData[DataNum].string4}</td>
                 <td className="second-cl">
-                  Heterozygous mutations in high-effect genes; small-effect
-                  variants in ~40 genes
-                </td>
-                <td>
                   Homozygous mutations in LPL or genes involved in LPL
                   processing (APOC2, APOA5, GPD1, GPIHBP1, LMF1)
                 </td>
               </tr>
               <tr>
-                <td className="fixed">Contribution of secondary factors</td>
-                <td className="second-cl">Major</td>
-                <td>Minimal</td>
+                <td>Contribution of secondary factors</td>
+                <td>{TableData[DataNum].string5}</td>
+                <td className="second-cl">Minimal</td>
               </tr>
               <tr>
-                <td className="fixed">Inheritance</td>
-                <td className="second-cl">
-                  Familial trend but no clear pattern
-                </td>
-                <td>Autosomal recessive</td>
+                <td>Inheritance</td>
+                <td>{TableData[DataNum].string6}</td>
+                <td className="second-cl">Autosomal recessive</td>
               </tr>
               <tr>
-                <td className="fixed">Age of onset</td>
-                <td className="second-cl">Adulthood</td>
-                <td>Childhood or adolescence</td>
+                <td>Age of onset</td>
+                <td>{TableData[DataNum].string7}</td>
+                <td className="second-cl">Childhood or adolescence</td>
               </tr>
               <tr>
-                <td className="fixed">
+                <td>
                   Shared clinical features (usually more common in FCS than MCS)
                 </td>
-                <td className="second-cl">
-                  Abdominal pain Nausea Vomiting Eruptive xanthomas Lipemia
-                  retinalis Pancreatitis
-                </td>
                 <td>
-                  Abdominal pain Nausea Vomiting Eruptive xanthomas Lipemia
-                  retinalis Pancreatitis
+                  <div className="wrap">{TableData[DataNum].string8}</div>
+                </td>
+                <td className="second-cl">
+                  <div className="wrap">
+                    Abdominal pain Nausea Vomiting Eruptive xanthomas Lipemia
+                    retinalis Pancreatitis
+                  </div>
                 </td>
               </tr>
               <tr>
-                <td className="fixed">Other clinical features</td>
-                <td className="second-cl">-</td>
-                <td>Failure to thrive, and Hepatosplenomegaly</td>
+                <td>Other clinical features</td>
+                <td>{TableData[DataNum].string9}</td>
+                <td className="second-cl">
+                  Failure to thrive, and Hepatosplenomegaly
+                </td>
               </tr>
               <tr>
-                <td className="fixed">Response to pharmacotherapy</td>
+                <td>Response to pharmacotherapy</td>
+                <td>{TableData[DataNum].string10}</td>
                 <td className="second-cl">
-                  Variable response to w-3 fatty acids and niacin
-                </td>
-                <td>
                   Minimal effect of vibrates, w-3 fatty acids, niacin, statins
                 </td>
               </tr>

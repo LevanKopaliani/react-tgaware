@@ -1,6 +1,6 @@
 const TableData = [
   {
-    sting1: "Multifactorial chylomicronemia Syndrome (MCS)",
+    string1: "Multifactorial chylomicronemia Syndrome (MCS)",
     string2: "Transiently or variable > 880 mg/dl (10mmol/L)",
     string3: "~ 1 in 600",
     string4:
@@ -14,7 +14,7 @@ const TableData = [
     string10: "Variable response to w-3 fatty acids and niacin",
   },
   {
-    sting1: "Familial Chylomicronemia Syndrome (FCS)",
+    string1: "Familial Chylomicronemia Syndrome (FCS)",
     string2: "Persistently >880 mg/dL (10mmmol/L)",
     string3: "~ 1 in 100,000 to 1 in 1 million",
     string4:

@@ -1,0 +1,53 @@
+.managment-section-fifth {
+  min-height: 960px;
+  background-image: url(../assets/img/managment/fifthback.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.managment-section-fifth-container {
+  min-height: 960px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.msff-info {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.msff-title {
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  max-width: 599px;
+  text-transform: uppercase;
+  color: #16191c;
+  border-right: 2px solid #ff0000;
+  padding: 0px 32px;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.msff-subtitle {
+  color: #454b61;
+  max-width: 592px;
+  line-height: 24px;
+  text-align: right;
+}
+
+@media screen and (max-width: 431px) {
+  .managment-section-fifth {
+    background-image: url(../assets/img/managment/fifthmobileback.png);
+  }
+  .msff-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .msff-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

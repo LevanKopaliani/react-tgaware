@@ -1,5 +1,8 @@
+import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import SignUp from "../components/SignUp";
 import "../styles/Managment.css";
+import ManagmentPageFifth from "./sections/ManagmentPageFifth";
 import ManagmentPageFour from "./sections/ManagmentPageFour";
 import ManagmentPageThree from "./sections/ManagmentPageThree";
 import ManagmentPageTwo from "./sections/ManagmentPageTwo";
@@ -18,6 +21,9 @@ const Managment = () => {
       <ManagmentPageTwo />
       <ManagmentPageThree />
       <ManagmentPageFour />
+      <ManagmentPageFifth />
+      <SignUp />
+      <Footer />
     </main>
   );
 };
