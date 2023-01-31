@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/react-tgaware/static/css/main.8a83989e.css",
-    "main.js": "/react-tgaware/static/js/main.32a956a2.js",
+    "main.css": "/react-tgaware/static/css/main.bbde332f.css",
+    "main.js": "/react-tgaware/static/js/main.7ba40b0e.js",
     "static/media/sectionthreeback.png": "/react-tgaware/static/media/sectionthreeback.db9e80fe57570a7d9947.png",
     "static/media/threeback.png": "/react-tgaware/static/media/threeback.764e01ac633eae2d6f0c.png",
     "static/media/mainback.png": "/react-tgaware/static/media/mainback.7741c3ad53a3892f0e44.png",
-    "static/media/fourback.png": "/react-tgaware/static/media/fourback.5df24d5cb2cf7b91c3c0.png",
+    "static/media/fourback.png": "/react-tgaware/static/media/fourback.0990f33731653e035310.png",
     "static/media/sectiontwoback.png": "/react-tgaware/static/media/sectiontwoback.e27f7b4d16eb9f1a2827.png",
     "static/media/twoback.png": "/react-tgaware/static/media/twoback.5b8b980479d80ff09cbe.png",
     "static/media/sectionfourback.png": "/react-tgaware/static/media/sectionfourback.9d3a346a91f3a70c1413.png",
     "static/media/causesback.png": "/react-tgaware/static/media/causesback.dd210916e0dfecd61ec0.png",
+    "static/media/fifthback.png": "/react-tgaware/static/media/fifthback.04e1e26056d8e9593c2c.png",
     "static/media/threemobileback.png": "/react-tgaware/static/media/threemobileback.8a67d54bb741a50d9d6a.png",
     "static/media/sectionthreemobileback.png": "/react-tgaware/static/media/sectionthreemobileback.a25f6b42b4721d332d6f.png",
     "static/media/homebackground.png": "/react-tgaware/static/media/homebackground.db26ba8d00be3450ec89.png",
+    "static/media/fourbotback.png": "/react-tgaware/static/media/fourbotback.c1619d4d7a9faa6c122a.png",
     "static/media/mainmobileback.png": "/react-tgaware/static/media/mainmobileback.2f438c7e591fb948c3b4.png",
     "static/media/causesmobileback.png": "/react-tgaware/static/media/causesmobileback.334be8877f3d3145c726.png",
-    "static/media/fourmobileback.png": "/react-tgaware/static/media/fourmobileback.91b65bc177ba7bd82f01.png",
+    "static/media/fifthmobileback.png": "/react-tgaware/static/media/fifthmobileback.e458340f01b1fe0272d8.png",
+    "static/media/fourmobileback.png": "/react-tgaware/static/media/fourmobileback.acb76637554dc03731b0.png",
     "static/media/mobileback.png": "/react-tgaware/static/media/mobileback.217f8c559217261e14a6.png",
     "static/media/sectiontwomobileback.png": "/react-tgaware/static/media/sectiontwomobileback.c828b879edcda16047ba.png",
     "static/media/twomobileback.png": "/react-tgaware/static/media/twomobileback.fb6dc0033145fa8e6afa.png",
@@ -26,11 +29,11 @@
     "static/media/DIN-Light.woff2": "/react-tgaware/static/media/DIN-Light.f8ce08afa46b0e47098c.woff2",
     "static/media/btn-logo.svg": "/react-tgaware/static/media/btn-logo.d271882484aa64ae1bfe8d41d01317dd.svg",
     "index.html": "/react-tgaware/index.html",
-    "main.8a83989e.css.map": "/react-tgaware/static/css/main.8a83989e.css.map",
-    "main.32a956a2.js.map": "/react-tgaware/static/js/main.32a956a2.js.map"
+    "main.bbde332f.css.map": "/react-tgaware/static/css/main.bbde332f.css.map",
+    "main.7ba40b0e.js.map": "/react-tgaware/static/js/main.7ba40b0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a83989e.css",
-    "static/js/main.32a956a2.js"
+    "static/css/main.bbde332f.css",
+    "static/js/main.7ba40b0e.js"
   ]
 }
