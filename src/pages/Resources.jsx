@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import "../styles/Resources.css";
+import ResourcesPageThree from "./sections/ResourcesPageThree";
 import ResourcesPageTwo from "./sections/ResourcesPageTwo";
 
 const Resources = () => {
@@ -13,6 +14,7 @@ const Resources = () => {
       </div>
 
       <ResourcesPageTwo />
+      <ResourcesPageThree />
     </main>
   );
 };

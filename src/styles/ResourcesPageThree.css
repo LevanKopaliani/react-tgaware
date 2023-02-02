@@ -1,0 +1,82 @@
+.resources-section-three {
+  background-image: url(../assets/img/resources/resourcesthreeback.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 1372px;
+}
+.resources-section-three-container {
+  padding: 152px 0 143px 0;
+}
+.section-three-top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: white;
+}
+.section-three-bottom {
+  margin-top: 130px;
+}
+.three-top-title,
+.three-bottom-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  text-transform: uppercase;
+  max-width: 562px;
+  padding: 0 32px;
+  border-left: 2px solid #ff0000;
+}
+.three-top-subtitle {
+  font-family: "Product Sans Medium";
+  max-width: 592px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.three-top-list,
+.three-bottom-list {
+  line-height: 24px;
+  list-style-position: inside;
+  max-width: 592px;
+}
+.three-bottom-list {
+  margin-top: 32px;
+}
+.three-top-list p {
+  margin-bottom: 32px;
+}
+.section-three-bottom {
+  color: white;
+}
+.three-bottom-list li:not(.three-bottom-list li:first-child) {
+  margin-top: 24px;
+}
+.three-bottom-button-container {
+  margin-top: 87px;
+  color: #16191c;
+}
+
+@media screen and (max-width: 431px) {
+  .resources-section-three {
+    background-image: url(../assets/img/resources/resourcesthreemobileback.png);
+    min-height: 1780px;
+  }
+  .section-three-top {
+    margin-top: 288px;
+  }
+  .three-top-title,
+  .three-bottom-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .section-three-bottom {
+    margin-top: 120px;
+  }
+
+  .three-top-subtitle,
+  .three-top-list,
+  .three-bottom-list {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
