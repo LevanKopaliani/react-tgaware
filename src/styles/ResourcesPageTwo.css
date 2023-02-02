@@ -1,0 +1,120 @@
+.resources-section-two {
+  background-image: url(../assets/img/resources/restwoback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1787px;
+}
+
+.resources-section-two-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.rst-info-top,
+.rst-info-center,
+.rst-info-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-end;
+}
+.rst-info-top {
+  margin-top: 200px;
+}
+.rst-info-center {
+  margin-top: 136px;
+}
+
+.info-top-title,
+.info-center-title {
+  font-family: "DINComp", sans-serif;
+  font-weight: 500;
+  max-width: 592px;
+  color: #16191c;
+  text-align: right;
+  font-size: 52px;
+  text-transform: uppercase;
+  padding: 0 32px;
+  border-right: 2px solid #ff0000;
+}
+.info-center-title {
+  max-width: 729px;
+}
+.info-top-subtitle,
+.info-center-subtitle,
+.info-bottom-subtitle {
+  font-family: "Product Sans Medium", sans-serif;
+  color: #454b61;
+  font-weight: 500;
+  max-width: 592px;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+}
+.info-center-subtitle {
+  max-width: 400px;
+}
+
+.info-center-sub-subtitle {
+  max-width: 592px;
+  text-align: right;
+  color: #454b61;
+}
+.info-bottom-sub-subtitle {
+  text-align: right;
+  color: #454b61;
+  max-width: 915px;
+}
+
+.rst-info-bottom {
+  margin-top: 160px;
+  padding: 0 32px;
+  border-right: 2px solid #ff0000;
+}
+
+@media screen and (max-width: 431px) {
+  .resources-section-two {
+    background-image: url(../assets/img/resources/restwomobileback.png);
+  }
+  .rst-info-top {
+    margin-top: 262px;
+  }
+  .info-top-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .info-top-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .resources-section-two {
+    min-height: 2150px;
+    padding-bottom: 110px;
+  }
+  .rst-info-center {
+    margin-top: 94px;
+  }
+  .info-center-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .info-center-subtitle,
+  .info-bottom-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 361px;
+  }
+  .info-center-sub-subtitle,
+  .info-bottom-sub-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 361px;
+  }
+  .rst-info-bottom {
+    margin-top: 105px;
+  }
+}

@@ -10,92 +10,98 @@ const ManagmentPageFour = () => {
 
   return (
     <section className="managment-section-four">
-      <div className="wrapper">
-        <div className="managment-section-four-container">
-          <div className="msf-section-info">
-            <h1 className="msf-title">
-              Lifestyle and
-              <br /> Pharmacologic Treatments
-            </h1>
-            <p className="msf-subtitle">
-              Genetic heterogeneity of triglyceride metabolism makes responses
-              to guideline-directed therapy highly variable.
-            </p>
-            <p className="msf-sub-subtitle">
-              Some people are highly resistant to current therapies, and their
-              TG levels can be challenging to manage in the clinic. 2,3
+      <div className="managment-section-four-top">
+        <div className="wrapper">
+          <div className="managment-section-four-container">
+            <div className="msf-section-info">
+              <h1 className="msf-title">
+                Lifestyle and
+                <br /> Pharmacologic Treatments
+              </h1>
+              <p className="msf-subtitle">
+                Genetic heterogeneity of triglyceride metabolism makes responses
+                to guideline-directed therapy highly variable.
+              </p>
+              <p className="msf-sub-subtitle">
+                Some people are highly resistant to current therapies, and their
+                TG levels can be challenging to manage in the clinic. 2,3
+              </p>
+            </div>
+            <div className="msf-section-table-one">
+              <h2 className="msf-table-one-title">
+                Average effects of lifestyle interventions 4,5
+              </h2>
+              <table className="msf-table-one">
+                <thead className="table-head">
+                  <span>Lifestyle interventions</span>
+                  <img src={ThOneImg} alt="" />
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Intervention</td>
+                    <td>TG lowering</td>
+                  </tr>
+                  <tr>
+                    <td>Alcohol abstinence</td>
+                    <td>
+                      TVariable Can lower TGs by as much as 80% in people with
+                      elevated TG and excess alcohol intake
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Weight loss</td>
+                    <td>
+                      Approximately 8 mg/dL (0.1 mmol/L) per kg weight loss
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Dietary modification</td>
+                    <td>
+                      0.18 mmol/L (15.7 mg/dL) reduction with plant-based diet
+                      enriched in protein and unsaturated fat
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Aerobic axercise</td>
+                    <td>10-20%</td>
+                  </tr>
+                  <tr>
+                    <td>ω3-polyunsaturaed fatty acids (eg, fish, flaxseed)</td>
+                    <td>10-50%</td>
+                  </tr>
+                </tbody>
+                <thead className="table-head">
+                  <span>Pharmacologic interventions</span>
+                  <img src={ThTwoImg} alt="" />
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Statins</td>
+                    <td>
+                      Dose-dependent; 22-45% reduction in people with baseline
+                      TG
+                      {" >"} 250mg/dL
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Fibrates</td>
+                    <td>30-50%</td>
+                  </tr>
+                  <tr>
+                    <td>Niacin</td>
+                    <td>up to 30%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="table-one-bottom-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
             </p>
           </div>
-          <div className="msf-section-table-one">
-            <h2 className="msf-table-one-title">
-              Average effects of lifestyle interventions 4,5
-            </h2>
-            <table className="msf-table-one">
-              <thead className="table-head">
-                <span>Lifestyle interventions</span>
-                <img src={ThOneImg} alt="" />
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Intervention</td>
-                  <td>TG lowering</td>
-                </tr>
-                <tr>
-                  <td>Alcohol abstinence</td>
-                  <td>
-                    TVariable Can lower TGs by as much as 80% in people with
-                    elevated TG and excess alcohol intake
-                  </td>
-                </tr>
-                <tr>
-                  <td>Weight loss</td>
-                  <td>Approximately 8 mg/dL (0.1 mmol/L) per kg weight loss</td>
-                </tr>
-                <tr>
-                  <td>Dietary modification</td>
-                  <td>
-                    0.18 mmol/L (15.7 mg/dL) reduction with plant-based diet
-                    enriched in protein and unsaturated fat
-                  </td>
-                </tr>
-                <tr>
-                  <td>Aerobic axercise</td>
-                  <td>10-20%</td>
-                </tr>
-                <tr>
-                  <td>ω3-polyunsaturaed fatty acids (eg, fish, flaxseed)</td>
-                  <td>10-50%</td>
-                </tr>
-              </tbody>
-              <thead className="table-head">
-                <span>Pharmacologic interventions</span>
-                <img src={ThTwoImg} alt="" />
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Statins</td>
-                  <td>
-                    Dose-dependent; 22-45% reduction in people with baseline TG
-                    {" >"} 250mg/dL
-                  </td>
-                </tr>
-                <tr>
-                  <td>Fibrates</td>
-                  <td>30-50%</td>
-                </tr>
-                <tr>
-                  <td>Niacin</td>
-                  <td>up to 30%</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <p className="table-one-bottom-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
-          </p>
         </div>
       </div>
+
       <section className="managment-section-four-bottom">
         <div className="wrapper">
           <div className="msf-section-bottom-info">

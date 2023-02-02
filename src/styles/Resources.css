@@ -1,0 +1,46 @@
+.resources {
+  min-height: 620px;
+}
+.resources-section {
+  background-image: url(../assets/img/resources/resourcesback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 620px;
+}
+
+.resources-container {
+  max-width: 1280px;
+  padding: 0 7%;
+  margin: 0 auto;
+  min-height: 620px;
+  position: relative;
+}
+
+.resources-title {
+  position: absolute;
+  bottom: 120px;
+  max-width: 730px;
+  font-family: "DINCorp", sans-serif;
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  bottom: 120px;
+}
+
+@media screen and (max-width: 431px) {
+  .resources-section {
+    background-image: url(../assets/img/resources/resourcesmobileback.png);
+    min-height: 680px;
+  }
+  .resources-title {
+    bottom: 80px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .resources-container {
+    min-height: 680px;
+  }
+}

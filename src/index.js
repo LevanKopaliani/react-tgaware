@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Causes from "./pages/Causes";
 import Managment from "./pages/Managment";
+import Resources from "./pages/Resources";
 
 const Applayout = () => {
   return (
@@ -32,6 +33,10 @@ const router = createBrowserRouter(
         {
           path: "/managment",
           element: <Managment />,
+        },
+        {
+          path: "/resources",
+          element: <Resources />,
         },
       ],
     },

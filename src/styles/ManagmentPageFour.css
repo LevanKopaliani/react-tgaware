@@ -1,12 +1,15 @@
 .managment-section-four {
+  min-height: 1800px;
+}
+.managment-section-four-top {
   background-image: url(../assets/img/managment/fourback.png);
   background-repeat: no-repeat;
+  /* background-size: cover; */
   background-position: top;
-  min-height: 1800px;
-
   padding-top: 152px;
   padding-bottom: 108px;
 }
+
 .msf-section-info,
 .msf-section-bottom-info {
   display: flex;
@@ -121,7 +124,6 @@ tr td:first-of-type {
   background: linear-gradient(180deg, #1e1e1e 0%, #262626 100%);
   color: white;
   gap: 0;
-  overflow-x: scroll;
 }
 .msf-table-two td {
   min-width: 134px;
@@ -187,7 +189,7 @@ th {
   } */
 }
 @media screen and (max-width: 431px) {
-  .managment-section-four {
+  .managment-section-four-top {
     background-image: url(../assets/img/managment/fourmobileback.png);
     background-repeat: no-repeat;
     background-position: top;

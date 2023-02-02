@@ -1,0 +1,27 @@
+.contactbutton {
+  max-width: 591px;
+  width: 100%;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 16px;
+  background: #ffffff;
+  padding: 24px 52px 24px 32px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.contactbutton svg {
+  flex: none;
+}
+.text-container p span {
+  color: #ff0000;
+}
+.text-container p:first-of-type {
+  font-family: "Product Sans Medium", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 459px;
+}
