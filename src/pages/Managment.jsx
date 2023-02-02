@@ -10,7 +10,6 @@ import ManagmentPageTwo from "./sections/ManagmentPageTwo";
 const Managment = () => {
   return (
     <main className="managment">
-      <NavBar />
       <section className="managment-section">
         <div className="managment-container">
           <h1 className="managment-section-title">
@@ -22,8 +21,6 @@ const Managment = () => {
       <ManagmentPageThree />
       <ManagmentPageFour />
       <ManagmentPageFifth />
-      <SignUp />
-      <Footer />
     </main>
   );
 };

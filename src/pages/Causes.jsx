@@ -10,7 +10,6 @@ import Footer from "../components/Footer";
 const Causes = () => {
   return (
     <main className="causes">
-      <NavBar />
       <section className="causes-section">
         <div className="causes-container">
           <h1 className="causes-heading">
@@ -23,8 +22,6 @@ const Causes = () => {
       <CausesPageTwo />
       <CausesPageThree />
       <CausesPageFour />
-      <SignUp />
-      <Footer />
     </main>
   );
 };

@@ -11,8 +11,6 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <main className="homepage">
-      <NavBar />
-
       <section className="section-one">
         <div className="section-one-container">
           <h1 className="section-one__title">
@@ -32,8 +30,6 @@ const Home = () => {
       <HomePageTwo />
       <HomePageThree />
       <HomePageFour />
-      <SignUp />
-      <Footer />
     </main>
   );
 };

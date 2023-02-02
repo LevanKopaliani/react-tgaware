@@ -1,0 +1,32 @@
+.resources-section-fifth {
+  background-image: url("../assets/img/resources/fifthback.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 960px;
+  padding-top: 162px;
+  padding-bottom: 160px;
+}
+
+.rsff-title {
+  color: #16191c;
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  text-transform: uppercase;
+  max-width: 366px;
+  padding: 0 32px;
+  border-left: 2px solid #ff0000;
+}
+.FAQ-container {
+  margin-top: 119px;
+}
+
+@media screen and (max-width: 431px) {
+  .resources-section-fifth {
+    background-image: url("../assets/img/resources/fifthmobileback.png");
+  }
+  .rsff-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

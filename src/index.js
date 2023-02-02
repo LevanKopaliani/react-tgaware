@@ -7,12 +7,16 @@ import Home from "./pages/Home";
 import Causes from "./pages/Causes";
 import Managment from "./pages/Managment";
 import Resources from "./pages/Resources";
+import SignUp from "./components/SignUp";
+import Footer from "./components/Footer";
 
 const Applayout = () => {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
       <Outlet />
+      <SignUp />
+      <Footer />
     </>
   );
 };
