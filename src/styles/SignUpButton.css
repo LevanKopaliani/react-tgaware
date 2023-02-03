@@ -1,9 +1,7 @@
 .signup-div {
-  min-width: 371px;
+  max-width: 371px;
+  width: 100%;
   height: 112px;
-  /* top: 56px; */
-  /* left: calc(100% - 836.5px); */
-  /* right: calc(100% - 80px); */
   right: 80px;
   bottom: -56px;
   background-color: #ff0000;

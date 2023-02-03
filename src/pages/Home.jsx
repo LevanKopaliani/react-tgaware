@@ -1,12 +1,9 @@
 import "../styles/Home.css";
-import NavBar from "../components/NavBar";
 import HomePageTwo from "./sections/HomePageTwo";
 import HomePageThree from "./sections/HomePageThree";
 import HomePageFour from "./sections/HomePageFour";
 import SignUpButton from "../components/SignUpButton";
 import MainButton from "../components/MainButton";
-import SignUp from "../components/SignUp";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -26,7 +23,6 @@ const Home = () => {
         </div>
         <SignUpButton />
       </section>
-
       <HomePageTwo />
       <HomePageThree />
       <HomePageFour />
