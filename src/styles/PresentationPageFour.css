@@ -1,0 +1,82 @@
+.presentation-section-four {
+  background-image: url(../assets/img/presentation/fourback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1402px;
+  position: relative;
+}
+.presentation-section-four-container {
+  min-height: 1402px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.psfr-top-section,
+.psfr-bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 32px;
+}
+.psfr-top-title,
+.psfr-bottom-title {
+  max-width: 733px;
+  color: #16191c;
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 0 32px;
+  border-right: 2px solid #ff0000;
+}
+.psfr-top-subtitle {
+  color: #454b61;
+  line-height: 24px;
+  max-width: 592px;
+  text-align: right;
+}
+.psfr-top-sub-subtitle {
+  font-family: "Product Sans Medium";
+  color: #454b61;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 592px;
+  text-align: right;
+}
+.mainbutton {
+  width: 251px;
+}
+.subtitle-container {
+  text-align: right;
+  line-height: 24px;
+}
+@media screen and (max-width: 431px) {
+  .presentation-section-four {
+    background-image: url(../assets/img/presentation/fourmobileback.png);
+  }
+  .subtitle-container,
+  .psfr-top-sub-subtitle,
+  .psfr-top-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .psfr-top-section {
+    margin-top: 460px;
+  }
+  .presentation-section-four {
+    padding-bottom: 100px;
+  }
+  .psfr-bottom-section {
+    margin-top: 124px;
+  }
+  .psfr-top-title,
+  .psfr-bottom-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
