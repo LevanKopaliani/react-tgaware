@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tgaware/static/css/main.a382a91f.css",
-    "main.js": "/react-tgaware/static/js/main.279a8daf.js",
+    "main.css": "/react-tgaware/static/css/main.0f0fcfac.css",
+    "main.js": "/react-tgaware/static/js/main.891f0790.js",
     "static/media/resourcesthreeback.png": "/react-tgaware/static/media/resourcesthreeback.ce4aa740b966650ebff5.png",
     "static/media/threeback.png": "/react-tgaware/static/media/threeback.b97bc1a0a29184aaf976.png",
     "static/media/mainback.png": "/react-tgaware/static/media/mainback.7741c3ad53a3892f0e44.png",
@@ -43,11 +43,11 @@
     "static/media/DIN-Medium.woff2": "/react-tgaware/static/media/DIN-Medium.a8dcf901d183963ea344.woff2",
     "static/media/DIN-Light.woff2": "/react-tgaware/static/media/DIN-Light.f8ce08afa46b0e47098c.woff2",
     "index.html": "/react-tgaware/index.html",
-    "main.a382a91f.css.map": "/react-tgaware/static/css/main.a382a91f.css.map",
-    "main.279a8daf.js.map": "/react-tgaware/static/js/main.279a8daf.js.map"
+    "main.0f0fcfac.css.map": "/react-tgaware/static/css/main.0f0fcfac.css.map",
+    "main.891f0790.js.map": "/react-tgaware/static/js/main.891f0790.js.map"
   },
   "entrypoints": [
-    "static/css/main.a382a91f.css",
-    "static/js/main.279a8daf.js"
+    "static/css/main.0f0fcfac.css",
+    "static/js/main.891f0790.js"
   ]
 }
