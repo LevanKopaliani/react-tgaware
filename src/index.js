@@ -9,6 +9,7 @@ import Managment from "./pages/Managment";
 import Resources from "./pages/Resources";
 import SignUp from "./components/SignUp";
 import Footer from "./components/Footer";
+import ClinicalPresentation from "./pages/ClinicalPresentation";
 
 const Applayout = () => {
   return (
@@ -41,6 +42,10 @@ const router = createBrowserRouter(
         {
           path: "/resources",
           element: <Resources />,
+        },
+        {
+          path: "/clinical-presentation",
+          element: <ClinicalPresentation />,
         },
       ],
     },

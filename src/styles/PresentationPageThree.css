@@ -1,0 +1,85 @@
+.presentation-section-three {
+  background-image: url(../assets/img/presentation/threeback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 900px;
+}
+.presentation-section-three-container {
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  color: white;
+}
+.psth-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 881px;
+}
+.psth-title p {
+  font-family: "DINComp-light";
+  font-weight: 350;
+}
+.psth-subtitle {
+  line-height: 24px;
+  color: #bec0c8;
+  max-width: 689px;
+}
+.psth-sub-subtitle {
+  font-family: "Product Sans Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 592px;
+}
+.psth-info-block {
+  max-width: 759px;
+  min-height: 120px;
+  padding: 24px 52px 24px 32px;
+  background-color: white;
+  color: #16191c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.psth-info-text-container p:first-child {
+  max-width: 627px;
+  font-family: "Product Sans Medium";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.psth-info-text-container p:last-child {
+  line-height: 24px;
+}
+.psth-info-block svg {
+  flex: none;
+}
+
+@media screen and (max-width: 431px) {
+  .presentation-section-three {
+    background-image: url(../assets/img/presentation/threemobileback.png);
+    min-height: 1305px;
+  }
+  .presentation-section-three-container {
+    min-height: 1305px;
+  }
+  .psth-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .psth-subtitle,
+  .psth-sub-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}

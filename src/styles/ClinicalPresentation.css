@@ -1,0 +1,42 @@
+.presentation-section {
+  background-image: url(../assets/img/presentation/presentationback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.presentation-container {
+  max-width: 1280px;
+  padding: 0 7%;
+  margin: 0 auto;
+  min-height: 620px;
+  position: relative;
+}
+.presentation-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  color: white;
+  font-size: 52px;
+  line-height: 52px;
+  max-width: 605px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 120px;
+}
+.presentation-title p {
+  font-family: "DINComp-light";
+  font-weight: 350;
+}
+
+@media screen and (max-width: 431px) {
+  .presentation-section {
+    background-image: url(../assets/img/presentation/presentationmobileback.png);
+  }
+  .presentation-title {
+    bottom: 80px;
+    max-width: 365px;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
