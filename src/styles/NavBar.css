@@ -41,13 +41,7 @@
 .mobile-header {
   display: none;
 }
-.nav-item {
-  /* height: 16px; */
-  /* border-bottom: 2px solid transparent; */
-  /* padding: 0.5rem 1rem; */
-}
-/* .nav-item:hover {
-} */
+
 .nav-links:hover {
   color: #ff0000;
   border-bottom: 2px solid #ff0000;
@@ -60,6 +54,7 @@
   justify-content: center;
   text-decoration: none;
   color: #fff;
+  border-bottom: 2px solid transparent;
 }
 
 .menu-icon {
@@ -96,7 +91,6 @@
   max-width: 257px;
   height: 118px;
   margin-top: 48px;
-  /* padding-bottom: 50px; */
 }
 .menu-icons {
   display: flex;
@@ -180,5 +174,10 @@
   }
   .socmedia {
     display: block;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav-menu {
+    gap: 20px;
   }
 }

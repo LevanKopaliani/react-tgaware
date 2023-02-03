@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+
 import "../styles/NavBar.css";
 import { IconContext } from "react-icons";
 import LogoWhite from "../assets/img/logo-white.png";
-import ButtonLogo from "../assets/img/btn-logo.svg";
 import NavBtn from "../assets/img/bntNAV.png";
 import MobileLogo from "../assets/img/mobilemenulogo.png";
 import CloseButton from "../assets/img/btn-close.png";
@@ -101,7 +100,7 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/"
+                to="/stay-informed"
                 className={({ isActive }) =>
                   isActive ? "nav-links activated" : "nav-links"
                 }

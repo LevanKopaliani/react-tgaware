@@ -1,0 +1,137 @@
+.presentation-section-fifth {
+  padding: 80px 0 150px 0;
+  min-height: 1500px;
+}
+.presentation-wrapper {
+  /* max-width: 1280px; */
+  padding: 0 32px;
+  margin: 0 auto;
+}
+.psft-title-container {
+  max-width: 1280px;
+  padding: 0 7%;
+}
+
+.psft-title {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  max-width: 813px;
+}
+.psft-title p {
+  font-family: "DINComp-light";
+  font-weight: 350;
+}
+.disease-block {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+
+.reverse {
+  flex-wrap: wrap-reverse;
+}
+.disease-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.disease-title {
+  max-width: 542px;
+  font-family: "DINComp";
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #16191c;
+  padding: 0 32px;
+  border-left: 2px solid #ff0000;
+}
+.disease-subtitle {
+  max-width: 542px;
+  line-height: 24px;
+  color: #454b61;
+}
+.disease-img {
+  display: flex;
+  flex-shrink: 1;
+}
+.disease-img img {
+  max-width: 100%;
+}
+.fz-42 {
+  font-size: 42px;
+}
+.read-more {
+  display: flex;
+  gap: 16px;
+  max-width: 233px;
+  height: 40px;
+}
+.read-more {
+  margin: 150px auto 0 auto;
+}
+.read-more-text {
+  font-family: "DINComp";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #16191c;
+}
+.read-more-button {
+  width: 40px;
+  border: 1px solid #ff0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  display: block !important;
+}
+.read-more {
+  display: none;
+}
+
+@media screen and (max-width: 560px) {
+  .psft-title {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 364px;
+  }
+  .disease-block {
+    margin-top: 100px;
+  }
+  .disease-title {
+    max-width: 360px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .disease-subtitle {
+    max-width: 364px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .disease-block {
+    justify-content: space-between;
+  }
+  .psft-title-container {
+    padding: 0;
+  }
+  .fz-42 {
+    overflow-wrap: anywhere;
+  }
+  .psft-bottom-section {
+    display: none;
+  }
+  .read-more {
+    display: flex;
+  }
+}

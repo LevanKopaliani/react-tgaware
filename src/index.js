@@ -22,6 +22,10 @@ const Applayout = () => {
   );
 };
 
+const StayInformed = () => {
+  return <></>;
+};
+
 const router = createBrowserRouter(
   [
     {
@@ -46,6 +50,10 @@ const router = createBrowserRouter(
         {
           path: "/clinical-presentation",
           element: <ClinicalPresentation />,
+        },
+        {
+          path: "/stay-informed",
+          element: <StayInformed />,
         },
       ],
     },

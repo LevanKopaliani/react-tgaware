@@ -1,4 +1,3 @@
-import NavBar from "../components/NavBar";
 import "../styles/Resources.css";
 import ResourcesPageFifth from "./sections/ResourcesPageFifth";
 import ResourcesPageFour from "./sections/ResourcesPageFour";

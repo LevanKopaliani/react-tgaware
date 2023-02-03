@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: "DINComp";
-  src: url(./assets/fonts/DIN-Medium.woff2) format("woff2");
+  src: url("./assets/fonts/DIN-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 @font-face {
   font-family: "DINComp-light";
-  src: url(./assets/fonts/DIN-Light.woff2) format("woff2");
+  src: url("./assets/fonts/DIN-Light.woff2") format("woff2");
   font-weight: 350;
 }
 @font-face {

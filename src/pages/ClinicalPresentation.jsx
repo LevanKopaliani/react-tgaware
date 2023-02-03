@@ -1,5 +1,6 @@
 import SignUpButton from "../components/SignUpButton";
 import "../styles/ClinicalPresentation.css";
+import PresentationPageFifth from "./sections/PresentationPageFifth";
 import PresentationPageFour from "./sections/PresentationPageFour";
 import PresentationPageThree from "./sections/PresentationPageThree";
 import PresentationPageTwo from "./sections/PresentationPageTwo";
@@ -18,6 +19,7 @@ const ClinicalPresentation = () => {
       <PresentationPageTwo />
       <PresentationPageThree />
       <PresentationPageFour />
+      <PresentationPageFifth />
     </main>
   );
 };

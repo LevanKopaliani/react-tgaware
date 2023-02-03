@@ -8,7 +8,7 @@
 .managment-section-fifth-container {
   min-height: 960px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 .msff-info {
