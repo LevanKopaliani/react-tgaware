@@ -19,7 +19,7 @@ function ResourcesPageFour() {
     <section className="resources-section-four">
       <div className="wrapper">
         <div className="resources-section-four-container">
-          <h1 className="rsf-title">CORE Study Locations</h1>
+          <h1 className="rsf-title title">CORE Study Locations</h1>
           <p className="rsf-subtitle">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa

@@ -47,7 +47,7 @@
   text-align: right;
 }
 .mainbutton {
-  width: 251px;
+  max-width: 251px;
 }
 .subtitle-container {
   text-align: right;

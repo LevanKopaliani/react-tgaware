@@ -9,7 +9,7 @@ const Causes = () => {
     <main className="causes">
       <section className="causes-section">
         <div className="causes-container">
-          <h1 className="causes-heading">
+          <h1 className="causes-heading title">
             <span>Causes of </span>
             <br /> Hypertriglyceridemia
           </h1>

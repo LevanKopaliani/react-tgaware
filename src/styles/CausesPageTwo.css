@@ -6,6 +6,7 @@
   min-height: 960px;
   display: flex;
   align-items: center;
+  padding: 120px 0 120px 0;
 }
 
 .section-two-container {

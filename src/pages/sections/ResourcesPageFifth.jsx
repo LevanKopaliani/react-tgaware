@@ -7,7 +7,7 @@ const ResourcesPageFifth = () => {
     <section className="resources-section-fifth">
       <div className="wrapper">
         <div className="resources-section-fifth-container">
-          <h1 className="rsff-title">Frequently Asked Questions </h1>
+          <h1 className="rsff-title title">Frequently Asked Questions </h1>
           <div className="FAQ-container">
             {FaqData.map((item, index) => (
               <FaqAcordeon title={item.title} content={item.data} key={index} />

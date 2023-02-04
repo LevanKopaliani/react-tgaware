@@ -9,7 +9,7 @@ const CausesPageFour = () => {
       <div className="wrapper">
         <div className="causes-section-four-container">
           <div className="causes-section-four-heading">
-            <h1>Genetic Causes of HTG</h1>
+            <h1 className="title">Genetic Causes of HTG</h1>
             <p>
               Patients with severe or extreme HTG are more likely to have
               genetic factors.
@@ -18,7 +18,7 @@ const CausesPageFour = () => {
             <MainButton text={"Learn more"} />
           </div>
           <div className="causes-section-four-topblock">
-            <h2 className="topblock-title">
+            <h2 className="topblock-title title">
               Genetic Causes of Moderately Elevated TG and Severe HTG
             </h2>
             <div className="topblock-list-container">
@@ -61,7 +61,9 @@ const CausesPageFour = () => {
             </p>
           </div>
           <div className="causes-section-four-bottomblock">
-            <h2 className="bottomblock-title">Genetic Causes of Extreme HTG</h2>
+            <h2 className="bottomblock-title title">
+              Genetic Causes of Extreme HTG
+            </h2>
             <div className="bottomblock-list-container">
               <ul className="bottomblock-list-one">
                 <p>

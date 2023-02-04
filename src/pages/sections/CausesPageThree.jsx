@@ -5,7 +5,7 @@ const CausesPageThree = () => {
     <section className="causes-section-three">
       <div className="wrapper">
         <div className="causes-section-three-container">
-          <h1 className="causes-section-three-title">
+          <h1 className="causes-section-three-title title">
             Nongenetic Causes of HTG
           </h1>
           <div className="list-container">

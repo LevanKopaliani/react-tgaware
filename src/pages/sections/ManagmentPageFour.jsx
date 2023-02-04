@@ -14,7 +14,7 @@ const ManagmentPageFour = () => {
         <div className="wrapper">
           <div className="managment-section-four-container">
             <div className="msf-section-info">
-              <h1 className="msf-title">
+              <h1 className="msf-title title">
                 Lifestyle and
                 <br /> Pharmacologic Treatments
               </h1>
@@ -28,7 +28,7 @@ const ManagmentPageFour = () => {
               </p>
             </div>
             <div className="msf-section-table-one">
-              <h2 className="msf-table-one-title">
+              <h2 className="msf-table-one-title title">
                 Average effects of lifestyle interventions 4,5
               </h2>
               <table className="msf-table-one">
@@ -105,7 +105,9 @@ const ManagmentPageFour = () => {
       <section className="managment-section-four-bottom">
         <div className="wrapper">
           <div className="msf-section-bottom-info">
-            <h1 className="msf-title bottom-section-title">Extreme HTG</h1>
+            <h1 className="msf-title bottom-section-title title">
+              Extreme HTG
+            </h1>
             <p className="msf-subtitle">
               A small percentage of people have monogenic causes of extreme
               hypertriglyceridemia. They often have extremely high triglyceride

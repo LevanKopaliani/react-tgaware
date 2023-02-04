@@ -58,7 +58,6 @@ input[type="checkbox"] {
 .agreement-fields {
   margin-top: 16px;
   display: flex;
-  /* align-items: center; */
   gap: 16px;
 }
 .field-required {
@@ -69,18 +68,11 @@ input[type="checkbox"] {
   font-size: 14px;
   line-height: 24px;
 }
-/* ::-webkit-input-placeholder {
-  color: red;
-  content: "*";
-  opacity: 1;
-} */
+
 form {
   max-width: 984px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(317px, 1fr));
-  /* display: flex;
-  align-items: center;
-  flex-wrap: wrap; */
   gap: 16px;
 }
 
@@ -91,6 +83,9 @@ form {
   .signup-form-container {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .signup-info-heading__title {
+    font-size: 32px;
   }
   form {
     grid-template-columns: 1fr;

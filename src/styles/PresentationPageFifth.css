@@ -93,7 +93,7 @@
   align-items: center;
 }
 
-.active {
+.enroll {
   display: block !important;
 }
 .read-more {
@@ -133,5 +133,6 @@
   }
   .read-more {
     display: flex;
+    justify-content: center;
   }
 }

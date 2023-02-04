@@ -7,7 +7,9 @@ const ResourcesPageThree = () => {
       <div className="wrapper">
         <div className="resources-section-three-container">
           <div className="section-three-top">
-            <h1 className="three-top-title">Previous Studies of Olezarsen</h1>
+            <h1 className="three-top-title title">
+              Previous Studies of Olezarsen
+            </h1>
 
             <ul className="three-top-list">
               <p>
@@ -32,7 +34,7 @@ const ResourcesPageThree = () => {
             </p>
           </div>
           <div className="section-three-bottom">
-            <h1 className="three-bottom-title">
+            <h1 className="three-bottom-title title">
               Do you have eligible patients?
             </h1>
             <ul className="three-bottom-list">

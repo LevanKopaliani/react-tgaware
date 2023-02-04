@@ -3,39 +3,41 @@ import ArrowS from "../../assets/img/managment/arrow-s.png";
 import ArrowM from "../../assets/img/managment/arrow-m.png";
 import Arrowleft from "../../assets/img/managment/leftarrow.png";
 import ArrowRight from "../../assets/img/managment/rightarrow.png";
-import AfterWrap from "../../assets/img/managment/afterwrap.png";
 
 const ManagmentPageThree = () => {
   return (
     <section className="managment-section-three">
       <div className="wrapper">
         <div className="managment-section-three-container">
-          <h1 className="msth-title">
+          <h1 className="msth-title title">
             A General
             <br /> Treatment Approach
           </h1>
-          <div className="msth-block mgt">
-            <p>Patient with elevated TG</p>
-            <ul className="msth-list">
-              <li>Define and achieve LDL-C goal</li>
-              <li>Define non-HDL-C goal</li>
-              <li>Exclude/treat secondary causes of HTG</li>
-              <li>Implement lifestyle changes</li>
-            </ul>
+          <div className="msth-block-container center-block">
+            <div className="msth-block mgt">
+              <p>Patient with elevated TG</p>
+              <ul className="msth-list">
+                <li>Define and achieve LDL-C goal</li>
+                <li>Define non-HDL-C goal</li>
+                <li>Exclude/treat secondary causes of HTG</li>
+                <li>Implement lifestyle changes</li>
+              </ul>
+            </div>
+            <div className="arrow arrow-s">
+              <img src={ArrowS} alt="" />
+            </div>
+            <div className="msth-block second-block">
+              <p>Non-HDL-C goal not achieved TG elevated</p>
+            </div>
+            <div className="arrow center">
+              <img src={Arrowleft} alt="" />
+              <img src={ArrowRight} alt="" />
+            </div>
           </div>
-          <div className="arrow arrow-s">
-            <img src={ArrowS} alt="" />
-          </div>
-          <div className="msth-block second-block">
-            <p>Non-HDL-C goal not achieved TG elevated</p>
-          </div>
-          <div className="arrow center">
-            <img src={Arrowleft} alt="" />
-            <img src={ArrowRight} alt="" />
-          </div>
+
           <div className="arrow afterwrap">
             <img src={ArrowM} alt="" />
-            <img src={AfterWrap} alt="" className="afterwrap-img" />
+            {/* <img src={AfterWrap} alt="" className="afterwrap-img" /> */}
           </div>
           <div className="msth-block-container">
             <div className="msth-block-column self">
@@ -45,7 +47,7 @@ const ManagmentPageThree = () => {
               <div className="arrow arrow-m">
                 <img src={ArrowM} alt="" />
               </div>
-              <div className="msth-block">
+              <div className="msth-block left-arrow">
                 <p>Primary goal: CV risk reduction</p>
                 <p>
                   Depending on overall CV risk, evaluate for further. Non-HDL-C
@@ -57,7 +59,11 @@ const ManagmentPageThree = () => {
                 </ul>
               </div>
             </div>
+
             <div className="msth-block-column mgt-101">
+              <div className="arrow arrow-m hiddenArow">
+                <img src={ArrowM} alt="" />
+              </div>
               {/* <div className="arrow afterwrap">
                 <img src={ArrowS} alt="" />
               </div> */}

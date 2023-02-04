@@ -23,7 +23,9 @@ const Applayout = () => {
 };
 
 const StayInformed = () => {
-  return <></>;
+  return (
+    <div style={{ paddingTop: "200px", backgroundColor: "#0c1823" }}></div>
+  );
 };
 
 const router = createBrowserRouter(
@@ -56,6 +58,7 @@ const router = createBrowserRouter(
           element: <StayInformed />,
         },
       ],
+      errorElement: <Applayout />,
     },
   ],
   { basename: "/react-tgaware/" }

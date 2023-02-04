@@ -8,7 +8,7 @@ const ResourcesPageTwo = () => {
       <div className="wrapper">
         <div className="resources-section-two-container">
           <div className="rst-info-top">
-            <h1 className="info-top-title">
+            <h1 className="info-top-title title">
               The CORE Study: Olezarsen Clinical Trial
             </h1>
             <p className="info-top-subtitle">
@@ -21,7 +21,7 @@ const ResourcesPageTwo = () => {
             <ContactButton />
           </div>
           <div className="rst-info-center">
-            <h1 className="info-center-title">
+            <h1 className="info-center-title title">
               A New Kind of Investigational Triglyceride-Lowering Therapy
             </h1>
             <p className="info-center-subtitle">

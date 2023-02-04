@@ -21,7 +21,7 @@ const PresentationPageFifth = () => {
       <div className="presentation-wrapper">
         <div className="presentation-section-fifth-container">
           <div className="psft-title-container">
-            <h1 className="psft-title">
+            <h1 className="psft-title title">
               Common physical features
               <p>and complications of severe or extreme HTG</p>
             </h1>
@@ -29,7 +29,7 @@ const PresentationPageFifth = () => {
           <div className="psft-top-section">
             <div className="disease-block reverse">
               <div className="disease-info">
-                <h1 className="disease-title">Cardiovascular disease</h1>
+                <h1 className="disease-title title">Cardiovascular disease</h1>
                 <p className="disease-subtitle">
                   People with severe or extreme HTG have approximately 2-fold to
                   9-fold higher risk of MI, stroke, aortic stenosis or other
@@ -53,7 +53,7 @@ const PresentationPageFifth = () => {
                 <img src={Dimage2} alt="" />
               </div>
               <div className="disease-info">
-                <h1 className="disease-title">Acute pancreatitis</h1>
+                <h1 className="disease-title title">Acute pancreatitis</h1>
                 <p className="disease-subtitle">
                   People with persistent extreme HTG, characterized by
                   chylomicronemia have a 360-fold higher risk of acute
@@ -71,7 +71,7 @@ const PresentationPageFifth = () => {
             </div>
             <div className="disease-block reverse">
               <div className="disease-info">
-                <h1 className="disease-title">
+                <h1 className="disease-title title">
                   Non-alcoholic fatty liver disease (NAFLD)
                 </h1>
                 <p className="disease-subtitle">
@@ -88,7 +88,7 @@ const PresentationPageFifth = () => {
           </div>
           <div
             className={
-              active ? "psft-bottom-section active" : "psft-bottom-section"
+              active ? "psft-bottom-section enroll" : "psft-bottom-section"
             }
           >
             <div className="disease-block">
@@ -96,7 +96,9 @@ const PresentationPageFifth = () => {
                 <img src={Dimage4} alt="" />
               </div>
               <div className="disease-info">
-                <h1 className="disease-title">Recurrent abdominal pain</h1>
+                <h1 className="disease-title title">
+                  Recurrent abdominal pain
+                </h1>
                 <p className="disease-subtitle">
                   People with persistent extreme HTG, characterized by
                   chylomicronemia have a 360-fold higher risk of acute
@@ -108,7 +110,7 @@ const PresentationPageFifth = () => {
             </div>
             <div className="disease-block reverse">
               <div className="disease-info">
-                <h1 className="disease-title">Eruptive xanthoma</h1>
+                <h1 className="disease-title title">Eruptive xanthoma</h1>
                 <p className="disease-subtitle">
                   Elevated plasma TG levels are a risk factor for development of
                   NAFLD,17-19 which can progress to non-alcoholic
@@ -125,7 +127,9 @@ const PresentationPageFifth = () => {
                 <img src={Dimage6} alt="" />
               </div>
               <div className="disease-info">
-                <h1 className="disease-title fz-42">Hepatosplenomegaly</h1>
+                <h1 className="disease-title fz-42 title">
+                  Hepatosplenomegaly
+                </h1>
                 <p className="disease-subtitle">
                   PPeople with persistent extreme HTG, characterized by
                   chylomicronemia have a 360-fold higher risk of acute
@@ -137,7 +141,7 @@ const PresentationPageFifth = () => {
             </div>
           </div>
           <div className="read-more">
-            <div className="read-more-text">
+            <div className="read-more-text title">
               <p>{active ? "SHOW LESS" : "Read more"}</p>
             </div>
             <div className="read-more-button">

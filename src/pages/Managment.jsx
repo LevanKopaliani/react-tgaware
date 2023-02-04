@@ -9,7 +9,7 @@ const Managment = () => {
     <main className="managment">
       <section className="managment-section">
         <div className="managment-container">
-          <h1 className="managment-section-title">
+          <h1 className="managment-section-title title">
             Hypertriglyceridemia Management
           </h1>
         </div>

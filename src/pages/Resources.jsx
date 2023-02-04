@@ -9,7 +9,9 @@ const Resources = () => {
     <main className="resources">
       <div className="resources-section">
         <div className="resources-container">
-          <h1 className="resources-title">Help Advance Current Research</h1>
+          <h1 className="resources-title title">
+            Help Advance Current Research
+          </h1>
         </div>
       </div>
 

@@ -7,7 +7,7 @@ const PresentationPageFour = () => {
       <div className="wrapper">
         <div className="presentation-section-four-container">
           <div className="psfr-top-section">
-            <h1 className="psfr-top-title">
+            <h1 className="psfr-top-title title">
               Severe and Extreme HTG May Present with Other Clinical Symptoms or
               Carry Risks
             </h1>
@@ -26,7 +26,7 @@ const PresentationPageFour = () => {
             <MainButton text={"Clinical Presentation PDF."} />
           </div>
           <div className="psfr-bottom-section">
-            <h1 className="psfr-bottom-title">
+            <h1 className="psfr-bottom-title title">
               Untreated severe or extreme HTG is associated with
             </h1>
             <div className="subtitle-container">

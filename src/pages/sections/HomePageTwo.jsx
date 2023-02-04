@@ -6,7 +6,7 @@ const HomePageTwo = () => {
     <section className="section-two ">
       <div className="wrapper">
         <div className="section-container">
-          <h1 className="section-title">
+          <h1 className="section-title title">
             Atherosclerotic Cardiovascular Disease
           </h1>
           <p className="section-subtitle">

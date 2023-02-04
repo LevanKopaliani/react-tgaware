@@ -10,7 +10,7 @@ const Home = () => {
     <main className="homepage">
       <section className="section-one">
         <div className="section-one-container">
-          <h1 className="section-one__title">
+          <h1 className="section-one__title title">
             Hypertriglyceridemia is a marker of increased risk
             <span> for stroke, myocardial infarction.</span>
           </h1>

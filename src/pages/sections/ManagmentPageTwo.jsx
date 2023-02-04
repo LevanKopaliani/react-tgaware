@@ -7,7 +7,7 @@ const ManagmentPageTwo = () => {
     <section className="managment-section-two">
       <div className="wrapper">
         <div className="managment-section-two-container">
-          <h1 className="mst-title">Goals of Management</h1>
+          <h1 className="mst-title title">Goals of Management</h1>
           <p className="mst-subtitle">
             For adults, current American College of Cardiology Expert Consensus
             recommends lowering of fasting TG levels to 1.7 mmol/L (150 mg/dL)

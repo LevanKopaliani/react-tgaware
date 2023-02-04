@@ -1,7 +1,6 @@
 import "../styles/SignUp.css";
 import SignUpIcon from "../assets/img/signup-icon.png";
 import MainButton from "./MainButton";
-import SubmitImg from "../assets/img/submit-img.png";
 import Acordion from "./Acordion";
 import ReferencesData from "../assets/data/ReferencesData";
 
@@ -62,19 +61,24 @@ const SignUp = () => {
             <div className="agreement-container">
               <p className="agreement-fields">
                 <span>
-                  <input type="checkbox" />
+                  <input type="checkbox" id="contact" />
                 </span>
-                I would like an Akcea representative to contact me.
+                <label htmlFor="contact">
+                  I would like an Akcea representative to contact me.
+                </label>
               </p>
               <p className="agreement-fields">
                 <span>
-                  <input type="checkbox" />
+                  <input type="checkbox" id="agree" />
                 </span>
-                By clicking this box, I agree that Akcea may use the information
-                I’m submitting to provide me with information about FCS and FCS
-                therapies. I understand that all personal information I’ve
-                submitted will be kept confidential in accodance with Akcea’s
-                privacy policy, and I agree to the terms of use.
+                <label htmlFor="agree" for="agree">
+                  By clicking this box, I agree that Akcea may use the
+                  information I’m submitting to provide me with information
+                  about FCS and FCS therapies. I understand that all personal
+                  information I’ve submitted will be kept confidential in
+                  accodance with Akcea’s privacy policy, and I agree to the
+                  terms of use.
+                </label>
               </p>
             </div>
           </div>

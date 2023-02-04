@@ -10,7 +10,7 @@ const ClinicalPresentation = () => {
     <main className="presentation">
       <section className="presentation-section">
         <div className="presentation-container">
-          <h1 className="presentation-title">
+          <h1 className="presentation-title title">
             <p>Recognizing</p>Symptoms of Severe or Extreme HTG
           </h1>
         </div>

@@ -6,7 +6,7 @@ const HomePageThree = () => {
     <section className="section-three">
       <div className="wrapper">
         <div className="section-three-container">
-          <h1 className="section-three-title">Acute Pancreatitis</h1>
+          <h1 className="section-three-title title">Acute Pancreatitis</h1>
           <p className="section-three-subtitle">
             TG levels above 10 mmol/L (880 mg/dL) confer a high risk for acute
             pancreatitis, though the risk begins to increase at even lower TG

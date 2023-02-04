@@ -9,8 +9,11 @@ const Acordion = ({ title, content }) => {
   return (
     <div className="acordion">
       <div className="acordion-item">
-        <div className="acordion-title">
-          <div className="title" onClick={() => setIsActive(!isActive)}>
+        <div className="acordion-item-title">
+          <div
+            className="acordion-title title"
+            onClick={() => setIsActive(!isActive)}
+          >
             {title}
           </div>
           <div className="colapse-img" onClick={() => setIsActive(!isActive)}>

@@ -5,6 +5,7 @@
   min-height: 72px;
   padding: 16px 0;
   border-top: 1px solid #454b61;
+  gap: 8px;
 }
 
 .faq-acordion-img {

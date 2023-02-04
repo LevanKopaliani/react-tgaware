@@ -2,12 +2,12 @@
   background-image: url(../assets/img/sectiontwoback.png);
   background-repeat: no-repeat;
   background-position: left center;
-  height: 960px;
-  /* position: relative; */
-  /* top: -56px; */
+  min-height: 960px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-top: 56px;
+  padding: 130px 0 120px 0;
 }
 
 .section-container {
@@ -16,8 +16,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
-  /* max-width: 592px; */
-  /* max-height: 440px; */
+
   text-align: right;
   gap: 32px;
 }

@@ -7,7 +7,7 @@ const ManagmentPageFifth = () => {
       <div className="wrapper">
         <div className="managment-section-fifth-container">
           <div className="msff-info">
-            <h1 className="msff-title">
+            <h1 className="msff-title title">
               Nutrition Management for People with Extreme
               <br /> HTG
             </h1>

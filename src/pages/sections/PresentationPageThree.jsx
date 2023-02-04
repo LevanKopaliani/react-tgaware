@@ -5,7 +5,7 @@ const PresentationPageThree = () => {
     <section className="presentation-section-three">
       <div className="wrapper">
         <div className="presentation-section-three-container">
-          <h1 className="psth-title">
+          <h1 className="psth-title title">
             Moderately elevated TG levels{" "}
             <p>
               ({">"}1.7 mmol/L; {">"}150 mg/dL)

@@ -6,7 +6,9 @@ const HomePageFour = () => {
     <section className="section-four">
       <div className="wrapper">
         <div className="section-four-top-container">
-          <h1 className="section-four-title">Causes of Hypertriglyceridemia</h1>
+          <h1 className="section-four-title title">
+            Causes of Hypertriglyceridemia
+          </h1>
           <p className="section-four-subtitle">
             Hypertriglyceridemia can arise from 5.
             <br /> - Single genetic bi-allelic mutations
@@ -22,7 +24,7 @@ const HomePageFour = () => {
           <MainButton text={"Learn more"} outline={"black"} />
         </div>
         <div className="section-four-bottom-container">
-          <h1 className="section-four-bottom-title">
+          <h1 className="section-four-bottom-title title">
             Management of Hypertriglyceridemia
           </h1>
           <p className="section-four-bottom-subtitle">

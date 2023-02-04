@@ -6,7 +6,7 @@ const CausesPageTwo = () => {
     <section className="causes-section-two">
       <div className="wrapper">
         <div className="section-two-container">
-          <h1 className="section-two-title">Overview</h1>
+          <h1 className="section-two-title title">Overview</h1>
           <p className="section-two-subtitle">
             Hypertriglyceridemia arises from combinations of three factors,
             which vary across individuals
@@ -23,7 +23,7 @@ const CausesPageTwo = () => {
           <ul className="section-two-list">
             <li>
               - Genetic causes (commonly referred to as “Primary HTG”), often a
-              complex polygenetic susceptibility.{" "}
+              complex polygenetic susceptibility.
             </li>
             <li>
               - Nongenetic causes (commonly referred to as “Secondary HTG”),
