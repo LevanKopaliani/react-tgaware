@@ -71,7 +71,7 @@ const SignUp = () => {
                 <span>
                   <input type="checkbox" id="agree" />
                 </span>
-                <label htmlFor="agree" for="agree">
+                <label htmlFor="agree">
                   By clicking this box, I agree that Akcea may use the
                   information I’m submitting to provide me with information
                   about FCS and FCS therapies. I understand that all personal

@@ -26,7 +26,7 @@
   line-height: 24px;
   font-weight: 400;
 }
-.signup-div svg:hover {
+.signup-div:hover svg {
   background-color: black;
   outline: 4px solid black;
   outline-offset: -4px;

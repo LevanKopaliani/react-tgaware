@@ -6,7 +6,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-top: 56px;
   padding: 130px 0 120px 0;
 }
 
@@ -48,7 +47,7 @@
 @media screen and (max-width: 431px) {
   .section-two {
     background-image: url(../assets/img/sectiontwomobileback.png);
-    top: 0px;
+    min-height: 930px;
   }
   .section-title {
     font-size: 32px;
