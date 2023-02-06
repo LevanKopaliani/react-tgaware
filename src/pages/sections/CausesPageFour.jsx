@@ -15,7 +15,7 @@ const CausesPageFour = () => {
               genetic factors.
             </p>
             <p>Learn more about the causes of Hypertriglyceridemia</p>
-            <MainButton text={"Learn more"} />
+            <MainButton text={"Learn more"} outline={"black"} />
           </div>
           <div className="causes-section-four-topblock">
             <h2 className="topblock-title title">

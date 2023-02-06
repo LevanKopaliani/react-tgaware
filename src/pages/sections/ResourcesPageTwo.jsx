@@ -53,7 +53,7 @@ const ResourcesPageTwo = () => {
               antisense medicines with specificity to certain cell types that
               express these receptors.
             </p>
-            <MainButton text={"Learn more"} />
+            <MainButton text={"Learn more"} outline={"black"} />
           </div>
         </div>
       </div>

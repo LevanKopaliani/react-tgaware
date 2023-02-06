@@ -93,4 +93,7 @@ form {
   .signup .form-input {
     min-width: 100px;
   }
+  .signup .mainbutton {
+    max-width: none;
+  }
 }

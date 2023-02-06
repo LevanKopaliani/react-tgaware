@@ -82,7 +82,7 @@ const SignUp = () => {
               </p>
             </div>
           </div>
-          <MainButton text={"Submit"} img={true} />
+          <MainButton text={"Submit"} img={true} outline={"black-black"} />
         </div>
         <Acordion title={"SHOW REFERENCES"} content={ReferencesData} />
       </div>

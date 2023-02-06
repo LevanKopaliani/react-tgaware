@@ -23,7 +23,7 @@ const PresentationPageFour = () => {
               increases in TG levels ({">"}10 mmol/L), leading to acute
               pancreatitis.9
             </p>
-            <MainButton text={"Clinical Presentation PDF."} />
+            <MainButton text={"Clinical Presentation PDF."} outline={"black"} />
           </div>
           <div className="psfr-bottom-section">
             <h1 className="psfr-bottom-title title">

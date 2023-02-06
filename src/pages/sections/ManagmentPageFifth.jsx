@@ -16,7 +16,7 @@ const ManagmentPageFifth = () => {
               management of diet is critical to minimize the risk of
               pancreatitis and other complications.
             </p>
-            <MainButton text={"Learn more"} />
+            <MainButton text={"Learn more"} outline={"black"} />
           </div>
         </div>
       </div>

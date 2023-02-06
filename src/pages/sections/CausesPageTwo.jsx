@@ -35,7 +35,7 @@ const CausesPageTwo = () => {
               refractory to lifestyle changes and guideline-directed therapy.3,5
             </li>
           </ul>
-          <MainButton text={"Learn more"} />
+          <MainButton text={"Learn more"} outline={"black"} />
         </div>
       </div>
     </section>

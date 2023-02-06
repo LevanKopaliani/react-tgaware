@@ -20,7 +20,7 @@ const ManagmentPageTwo = () => {
             reduce the risk of acute pancreatitis. Reducing TG levels is
             especially important in adults with TG 10.0 mmol/L (880 mg/dL).9
           </p>
-          <MainButton text={"Learn more"} />
+          <MainButton text={"Learn more"} outline={"black"} />
         </div>
       </div>
       <SignUpButton />

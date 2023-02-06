@@ -10,7 +10,7 @@ const PresentationPageTwo = () => {
             <h1 className="pst-info-title title">
               Consensus Definitions of Plasma Triglyceride Levels
             </h1>
-            <MainButton text={"Learn more"} />
+            <MainButton text={"Learn more"} outline={"black"} />
           </div>
         </div>
       </div>
