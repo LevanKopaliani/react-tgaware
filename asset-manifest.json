@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-tgaware/static/css/main.9538c1bd.css",
-    "main.js": "/react-tgaware/static/js/main.39b130e8.js",
+    "main.css": "/react-tgaware/static/css/main.90a3c889.css",
+    "main.js": "/react-tgaware/static/js/main.60323fbd.js",
     "static/media/sectionfourback.png": "/react-tgaware/static/media/sectionfourback.9d3a346a91f3a70c1413.png",
     "static/media/sectionthreeback.png": "/react-tgaware/static/media/sectionthreeback.cc06a15f257a82f3a91b.png",
     "static/media/threeback.png": "/react-tgaware/static/media/threeback.36febc995a7ea09e8155.png",
@@ -40,14 +40,15 @@
     "static/media/restwomobileback.png": "/react-tgaware/static/media/restwomobileback.960b0a9c0c5e38156bec.png",
     "static/media/ProductSans-Regular.woff": "/react-tgaware/static/media/ProductSans-Regular.0a489488ab3cb2eb11f9.woff",
     "static/media/ProductSans-Medium.woff": "/react-tgaware/static/media/ProductSans-Medium.70f0942277dd5cd83980.woff",
+    "static/media/ProductSans-Bold.woff": "/react-tgaware/static/media/ProductSans-Bold.0e179021d036d6dacfba.woff",
     "static/media/DIN-Medium.woff2": "/react-tgaware/static/media/DIN-Medium.a8dcf901d183963ea344.woff2",
     "static/media/DIN-Light.woff2": "/react-tgaware/static/media/DIN-Light.f8ce08afa46b0e47098c.woff2",
     "index.html": "/react-tgaware/index.html",
-    "main.9538c1bd.css.map": "/react-tgaware/static/css/main.9538c1bd.css.map",
-    "main.39b130e8.js.map": "/react-tgaware/static/js/main.39b130e8.js.map"
+    "main.90a3c889.css.map": "/react-tgaware/static/css/main.90a3c889.css.map",
+    "main.60323fbd.js.map": "/react-tgaware/static/js/main.60323fbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9538c1bd.css",
-    "static/js/main.39b130e8.js"
+    "static/css/main.90a3c889.css",
+    "static/js/main.60323fbd.js"
   ]
 }
