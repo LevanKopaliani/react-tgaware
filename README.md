@@ -1,3 +1,8 @@
+https://levankopaliani.github.io/react-tgaware/
+
+<img width="1440" alt="Desktop - HOMEPAGE" src="https://user-images.githubusercontent.com/59373220/224350914-ff31c3ca-2e5c-4109-80cd-d2dc2a8e2211.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
